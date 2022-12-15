@@ -1,7 +1,5 @@
 package ModuleTwoLesson13;
 
-import java.sql.SQLOutput;
-
 public class Circle {
     public Circle(double x) {
         System.out.println("Радиус равен: " + x);
@@ -9,22 +7,20 @@ public class Circle {
         System.out.println("Длина окружности равна: " + circumference(x));
     }
 
-    static double radius;
+ //   static double radius;
     static final double Pi = 3.14;
 
     static double area(double radius) {
-        double z = Pi * (Math.pow(radius, 2));
-        return z;
+        return Pi * (Math.pow(radius, 2));
     }
 
     static double circumference(double radius) {
-        double z = 2 * Pi * radius;
-        return z;
+        return 2 * Pi * radius;
     }
 
     public static void main(String[] args) {
         Circle asd = new Circle(21);
-        Circle bdsm = new Circle(85.44);
+//        Circle bdsm = new Circle(85.44);
 
     }
 }

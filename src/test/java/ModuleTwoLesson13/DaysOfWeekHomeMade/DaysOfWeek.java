@@ -9,4 +9,9 @@ public class DaysOfWeek {
     static final String Friday = "Пятница";
     static final String Saturday = "Суббота";
     static final String Sunday = "Воскресенье";
+
+
+    public static void main(String[] args) {
+
+    }
 }

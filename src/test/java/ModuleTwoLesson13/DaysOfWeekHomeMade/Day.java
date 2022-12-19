@@ -3,6 +3,7 @@ package ModuleTwoLesson13.DaysOfWeekHomeMade;
 public class Day {
 
 
-    int numOfMonth;
+    int dayOfWeek;
+    int dayOfMonth;
     }
 

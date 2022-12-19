@@ -2,25 +2,29 @@ package ModuleTwoLesson13;
 
 public class Circle {
     public Circle(double radius) {
-        System.out.println("Радиус равен: " + radius);
-        System.out.println("Площадь круга равна: " + area(radius));
-        System.out.println("Длина окружности равна: " + circumference(radius));
+        this.radius = radius;
     }
 
-  //     static double radius;
+    double radius;
     static final double Pi = 3.14;
 
-    static double area(double radius) {
+    double area() {
         return Pi * (Math.pow(radius, 2));
     }
 
-    static double circumference(double radius) {
+    double circumference() {
         return 2 * Pi * radius;
+    }
+
+    void print() {
+        System.out.println("Радиус равен: " + radius);
+        System.out.println("Площадь круга равна: " + area());
+        System.out.println("Длина окружности равна: " + circumference());
+        System.out.println();
     }
 
     public static void main(String[] args) {
         Circle asd = new Circle(21);
-//        Circle dsa = new Circle(85.44);
-
+        asd.print();
     }
 }

@@ -1,7 +1,8 @@
 package mypackage.cars;
 
 public class Car {
-    static void move(){
+    public static void move() {
         System.out.println("I am move");
     }
-}
+    }
+

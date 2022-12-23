@@ -1,38 +1,23 @@
 package ModuleTwoLesson13.localDateTest;
 
-import java.text.DateFormat;
 import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
     public static void main(String[] args) throws ParseException {
 
-        List<Date> dates = new ArrayList<Date>();
 
-        String str_date ="27/08/2010";
-        String end_date ="02/09/2010";
 
-        DateFormat formatter ;
+        LocalDate start = LocalDate.of(2017, 2, 1);
+        LocalDate end = LocalDate.of(2017, 2, 28);
 
-        formatter = new SimpleDateFormat("dd/MM/yyyy");
-        Date  startDate = (Date)formatter.parse(str_date);
-        Date  endDate = (Date)formatter.parse(end_date);
-        long interval = 24*1000 * 60 * 60; // 1 hour in millis
-        long endTime =endDate.getTime() ; // create your endtime here, possibly using Calendar or Date
-        long curTime = startDate.getTime();
-        while (curTime <= endTime) {
-            dates.add(new Date(curTime));
-            curTime += interval;
-        }
-        for(int i=0;i<dates.size();i++){
-            Date lDate =(Date)dates.get(i);
-            String ds = formatter.format(lDate);
-            System.out.println(" Date is ..." + ds);
-        }
+        Stream<LocalDate> dates = start.datesUntil(end.plusDays(1));
+        List<LocalDate> list = dates.collect(Collectors.toList());
+        System.out.println(list);
 
 
         }

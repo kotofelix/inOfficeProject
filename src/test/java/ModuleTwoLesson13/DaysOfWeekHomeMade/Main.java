@@ -5,9 +5,9 @@ import static ModuleTwoLesson13.DaysOfWeekHomeMade.Day.firstDayOf2Week;
 public class Main {
     public static void main(String[] args) {
 
-Day d1 = new Day(1);
-Day d2 = new Day(35);
-Day d3 = new Day(52);
+        Week d1 = new Week(1);
+        Week d2 = new Week(35);
+        Week d3 = new Week(52);
 
 
 

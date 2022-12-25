@@ -10,14 +10,14 @@ public class Day {
     int dayOfWeek;
     int dayOfMonth;
     int numDayOfYear;
-    LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(5);
+//    LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(5);
 
 
     int numWeek;
 
     public Day(int numWeek) {
         this.numWeek = numWeek;
-        LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(numWeek - 1);
+        LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(numWeek - 2);
         System.out.println(dayYourEntryWeek);
    }
 

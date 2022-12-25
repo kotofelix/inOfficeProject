@@ -17,7 +17,7 @@ public class Day {
 
     public Day(int numWeek) {
         this.numWeek = numWeek;
-        LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(numWeek - 2);
+        LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(numWeek - 1);
         System.out.println(dayYourEntryWeek);
    }
 

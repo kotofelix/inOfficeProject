@@ -10,22 +10,19 @@ public class Day {
     int dayOfWeek;
     int dayOfMonth;
     int numDayOfYear;
-    LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(5);
 
-
-    int numWeek;
+    static int numWeek;
 
     public Day(int numWeek) {
         this.numWeek = numWeek;
-        LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(numWeek - 1);
-        System.out.println(dayYourEntryWeek);
-   }
 
- //     static void  () {
-//
- //      return firstDayOf2Week.plusWeeks(numWeek);
-//
- //   }
+    }
+
+   static void  () {
+
+       return firstDayOf2Week.plusWeeks(numWeek);
+
+    }
 
 }
 

@@ -11,4 +11,5 @@ public class DaysOfWeek {
     static final String Sunday = "Воскресенье";
 
 
+
 }

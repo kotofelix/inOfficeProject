@@ -19,13 +19,13 @@ public class WeekE {
         LocalDate day6 = dayYourEntryWeek.plusDays(5);
         LocalDate day7 = dayYourEntryWeek.plusDays(6);
 
-        System.out.println(dayYourEntryWeek + " " + DaysOfWeekE.Понедельник);
-        System.out.println(day2 + " " + DaysOfWeekE.Вторник);
-        System.out.println(day3 + " " + DaysOfWeekE.Среда);
-        System.out.println(day4 + " " + DaysOfWeekE.Четверг);
-        System.out.println(day5 + " " + DaysOfWeekE.Пятница);
-        System.out.println(day6 + " " + DaysOfWeekE.Суббота);
-        System.out.println(day7 + " " + DaysOfWeekE.Воскресенье);
+        System.out.println(dayYourEntryWeek + " " + DaysOfWeekE.MONDAY.getNameRussian());
+        System.out.println(day2 + " " + DaysOfWeekE.TUESDAY.getNameRussian());
+        System.out.println(day3 + " " + DaysOfWeekE.WEDNESDAY.getNameRussian());
+        System.out.println(day4 + " " + DaysOfWeekE.THURSDAY.getNameRussian());
+        System.out.println(day5 + " " + DaysOfWeekE.FRIDAY.getNameRussian());
+        System.out.println(day6 + " " + DaysOfWeekE.SATURDAY.getNameRussian());
+        System.out.println(day7 + " " + DaysOfWeekE.SUNDAY.getNameRussian());
         System.out.println();
     }
 }

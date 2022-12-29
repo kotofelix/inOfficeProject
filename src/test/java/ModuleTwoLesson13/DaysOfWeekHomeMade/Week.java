@@ -2,24 +2,34 @@ package ModuleTwoLesson13.DaysOfWeekHomeMade;
 
 import java.time.LocalDate;
 
-import static ModuleTwoLesson13.DaysOfWeekHomeMade.Day.firstDayOf2Week;
-
 public class Week {
+
+    static final LocalDate firstDayOfWeekOf2022 = LocalDate.of(2022, 1, 3);  // это первый день нашей недели 2022 года
     int numWeek;
+    LocalDate day1;
+    LocalDate day2;
+    LocalDate day3;
+    LocalDate day4;
+    LocalDate day5;
+    LocalDate day6;
+    LocalDate day7;
 
     public Week(int numWeek) {
-        System.out.println("Неделя №:" + numWeek);
+
         this.numWeek = numWeek;
 
-        LocalDate dayYourEntryWeek = firstDayOf2Week.plusWeeks(numWeek - 1);  //
-        LocalDate day2 = dayYourEntryWeek.plusDays(1);
-        LocalDate day3 = dayYourEntryWeek.plusDays(2);
-        LocalDate day4 = dayYourEntryWeek.plusDays(3);
-        LocalDate day5 = dayYourEntryWeek.plusDays(4);
-        LocalDate day6 = dayYourEntryWeek.plusDays(5);
-        LocalDate day7 = dayYourEntryWeek.plusDays(6);
+        day1 = firstDayOfWeekOf2022.plusWeeks(numWeek - 1);  //
+        day2 = day1.plusDays(1);
+        day3 = day1.plusDays(2);
+        day4 = day1.plusDays(3);
+        day5 = day1.plusDays(4);
+        day6 = day1.plusDays(5);
+        day7 = day1.plusDays(6);
+    }
 
-        System.out.println(dayYourEntryWeek + " " + DaysOfWeek.Monday);
+    void print() {
+        System.out.println("Неделя №:" + numWeek);
+        System.out.println(day1 + " " + DaysOfWeek.Monday);
         System.out.println(day2 + " " + DaysOfWeek.Tuesday);
         System.out.println(day3 + " " + DaysOfWeek.Wednesday);
         System.out.println(day4 + " " + DaysOfWeek.Thursday);

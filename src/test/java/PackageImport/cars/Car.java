@@ -1,4 +1,4 @@
-package mypackage.cars;
+package PackageImport.cars;
 
 public class Car {
     public static void move() {

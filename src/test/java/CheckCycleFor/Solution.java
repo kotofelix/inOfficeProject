@@ -1,4 +1,4 @@
-package MassiveMy;
+package CheckCycleFor;
 
 
 public class Solution {

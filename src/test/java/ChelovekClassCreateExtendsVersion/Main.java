@@ -1,4 +1,4 @@
-package Chelovek2;
+package ChelovekClassCreateExtendsVersion;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package Chelovek;
+package ChelovekClassCreate;
 
 public class Person {
     String name;

@@ -1,6 +1,6 @@
-package mypackage;
+package PackageImport;
 
-import static mypackage.cars.Car.*;
+import static PackageImport.cars.Car.*;
 
 public class Main {
     public static void main(String[] args) {

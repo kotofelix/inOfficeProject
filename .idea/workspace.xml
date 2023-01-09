@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/HealthState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Horse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -49,38 +51,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainE">
+  <component name="RunManager" selected="Application.ModuleTwoLesson17.Main">
     <configuration name="Circle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.Circle" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ModuleTwoLesson13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PackageImport.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PackageImport.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,13 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ModuleTwoLesson17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson17.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModuleTwoLesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ModuleTwoLesson17.Main" />
         <item itemvalue="Application.MainE" />
         <item itemvalue="Application.ModuleTwoLesson13.DaysOfWeekHomeMade.Main" />
         <item itemvalue="Application.ModuleTwoLesson13.localDateTest.Main" />
         <item itemvalue="Application.Circle" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -258,8 +261,26 @@
       <option name="project" value="LOCAL" />
       <updated>1673245992038</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="добавил заготовку по ДЗ с Animal">
+      <created>1673260762283</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1673260762283</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -276,6 +297,7 @@
     <MESSAGE value="отредактировал оба задания согласно рекомендуемых правок" />
     <MESSAGE value="+Add Chelovek2" />
     <MESSAGE value="поменял названия пакетов" />
-    <option name="LAST_COMMIT_MESSAGE" value="поменял названия пакетов" />
+    <MESSAGE value="добавил заготовку по ДЗ с Animal" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил заготовку по ДЗ с Animal" />
   </component>
 </project>

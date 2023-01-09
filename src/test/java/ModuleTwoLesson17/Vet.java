@@ -11,9 +11,10 @@
 package ModuleTwoLesson17;
 
 public class Vet {
-    String name;
+    String name;        // имя ветеринара
 
-    void treatAnimal(Animal animal){
+    void treatAnimal(){
+
 
     }
 }

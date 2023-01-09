@@ -49,8 +49,25 @@
  */
 package ModuleTwoLesson17;
 
+import static ModuleTwoLesson17.HealthState.*;
+
 public class Main {
     public static void main(String[] args) {
+       Dog dog1 = new Dog("Barbos", 20, "Russia", HEALTHY);
+        Cat cat1 = new Cat();
+        Horse horse1 = new Horse();
+        Dog dog2 = new Dog();
+        dog1.makeSound();
+
+        Dog dog3 = new Dog("Boris", 100, "Russia", UNHEALTHY);
+        dog1.sleep();
+        dog1.eat();
+
+
+
+
+
+
 
     }
 }

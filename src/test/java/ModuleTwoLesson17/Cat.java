@@ -1,8 +1,17 @@
 package ModuleTwoLesson17;
 
-public class Cat extends Animal{
+public class Cat extends Animal {
+    public Cat(String name, double foodCounter, String location) {
+        super(name, foodCounter, location);
+    }
+
+    public Cat(){
+
+    };
+
     @Override
     public void makeSound() {
+        System.out.println("Мяу");
 
     }
 
@@ -12,12 +21,8 @@ public class Cat extends Animal{
     }
 
     @Override
-    public void sleep() {
-
-    }
-
-    @Override
-    public void toString(String location, String health, int counter) {
-
+    String toString(String location, HealthState health, int counter) {
+        String info = "";
+        return info;
     }
 }

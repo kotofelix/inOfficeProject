@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Moodle_2_14_Enum/Class2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Moodle_2_14_Enum/DayOfWeek/DayOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Moodle_2_14_Enum/DayOfWeek/Main.java" afterDir="false" />
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="добавил">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Chelovek2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/DaysOfWeekE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/DaysOfWeekE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/WeekE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/WeekE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/Week.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672039493642</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="отредактировал оба задания согласно рекомендуемых правок">
+      <created>1672310925245</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672310925245</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,6 +254,7 @@
     <MESSAGE value="add DaysOfWeekEnum" />
     <MESSAGE value="add DaysOfWeekEnum&#10;изменено на Enum" />
     <MESSAGE value="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте" />
-    <option name="LAST_COMMIT_MESSAGE" value="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте" />
+    <MESSAGE value="отредактировал оба задания согласно рекомендуемых правок" />
+    <option name="LAST_COMMIT_MESSAGE" value="отредактировал оба задания согласно рекомендуемых правок" />
   </component>
 </project>

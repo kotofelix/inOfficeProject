@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/IntPlusBigIntDouble/Arifmetics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Horse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Chelovek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChelovekClassCreate/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Chelovek/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChelovekClassCreate/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Chelovek2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ChelovekClassCreateExtendsVersion/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MassiveMy/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CheckCycleFor/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/daysOfWeekHomeMade/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/daysOfWeekHomeMade/DaysOfWeek.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/daysOfWeekHomeMade/Week.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mypackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PackageImport/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/mypackage/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PackageImport/cars/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673244590368</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="поменял названия пакетов">
+      <created>1673245992038</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673245992038</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,6 +275,7 @@
     <MESSAGE value="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте" />
     <MESSAGE value="отредактировал оба задания согласно рекомендуемых правок" />
     <MESSAGE value="+Add Chelovek2" />
-    <option name="LAST_COMMIT_MESSAGE" value="+Add Chelovek2" />
+    <MESSAGE value="поменял названия пакетов" />
+    <option name="LAST_COMMIT_MESSAGE" value="поменял названия пакетов" />
   </component>
 </project>

@@ -9,9 +9,9 @@ public class Dog extends Animal {
 
     }
 
-  public Dog() {
+    public Dog() {
 
-  }
+    }
 
 
     @Override
@@ -21,8 +21,8 @@ public class Dog extends Animal {
     }
 
     @Override
-    void eat() {
-  //      foodCounter = foodCounter - eatFood;
+    void eat(double eatFood) {
+        super.eat(eatFood);
         System.out.println("Животное ест собачий корм");
         System.out.println("Количество корма у животного: " + foodCounter);
 
@@ -30,9 +30,9 @@ public class Dog extends Animal {
     }
 
     @Override
-    String toString(String location, HealthState health, int counter) {
-        String info = "";
-        return info;
+    public String toString() {
+        return super.toString();
     }
+
 
 }

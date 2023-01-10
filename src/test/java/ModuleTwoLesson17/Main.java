@@ -53,26 +53,44 @@ import static ModuleTwoLesson17.HealthState.*;
 
 public class Main {
     public static void main(String[] args) {
-       Dog dog1 = new Dog("Barbos", 20, "Russia", HEALTHY);
-        Cat cat1 = new Cat();
-        Horse horse1 = new Horse();
-        Dog dog2 = new Dog();
-//        dog1.makeSound();
-
-        Dog dog3 = new Dog("Boris", 100, "Russia", UNHEALTHY);
- //       dog1.sleep();
- //       dog1.eat();
-
+        Dog dog1 = new Dog("Barbos", 20, "Russia", HEALTHY);
+        Cat cat1 = new Cat("Murka", 80, "Russia", HEALTHY);
+        Horse horse1 = new Horse("Mustang", 140, "USA", UNHEALTHY);
         Vet vet1 = new Vet("Petr");
-   //     vet1.treatAnimal(dog1);
 
-  //      vet1.treatAnimal(dog3);
+        dog1.makeSound();
+        System.out.println();
+        dog1.sleep();
+        System.out.println();
+        dog1.eat(12);
+        System.out.println();
+        System.out.println(dog1);
+        System.out.println();
+        vet1.treatAnimal(dog1);
+        System.out.println();
+        cat1.makeSound();
+        System.out.println();
+        cat1.sleep();
+        System.out.println();
+        cat1.eat(12);
+        System.out.println();
+        System.out.println(cat1);
+        System.out.println();
+        vet1.treatAnimal(cat1);
+        System.out.println();
 
-        dog1.eat();
-
-
-
-
+        horse1.makeSound();
+        System.out.println();
+        horse1.sleep();
+        System.out.println();
+        horse1.eat(12);
+        System.out.println();
+        System.out.println(horse1);
+        System.out.println();
+        vet1.treatAnimal(horse1);
+        System.out.println();
+        System.out.println();
+        System.out.println(horse1);
 
 
     }

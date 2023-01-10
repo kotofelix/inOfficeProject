@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/HealthState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
@@ -51,14 +50,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "inlay.hints"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
@@ -268,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673260762283</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="добавил заготовку по ДЗ с Animal+">
+      <created>1673271332179</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673271332179</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,6 +304,7 @@
     <MESSAGE value="+Add Chelovek2" />
     <MESSAGE value="поменял названия пакетов" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил заготовку по ДЗ с Animal" />
+    <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил заготовку по ДЗ с Animal+" />
   </component>
 </project>

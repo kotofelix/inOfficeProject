@@ -13,8 +13,17 @@ package ModuleTwoLesson17;
 public class Vet {
     String name;        // имя ветеринара
 
-    void treatAnimal(){
+    public Vet(String name) {
+        this.name = name;
+    }
 
+    void treatAnimal(Animal animal) {
+        if (animal.health.equals(HealthState.HEALTHY)) {
+            System.out.println("Животное здорово");
+        } else {
+            animal.health = HealthState.HEALTHY;
+            System.out.println("Животное вылечено");
+        }
 
     }
 }

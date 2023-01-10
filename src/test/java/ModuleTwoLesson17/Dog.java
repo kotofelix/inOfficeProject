@@ -6,7 +6,7 @@ public class Dog extends Animal {
         super.foodCounter = foodCounter;
         super.location = location;
         super.health = health;
-  //      Vet.treatAnimal();
+
     }
 
   public Dog() {
@@ -21,8 +21,10 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void eat() {
-        System.out.println("животное ест");
+    void eat() {
+  //      foodCounter = foodCounter - eatFood;
+        System.out.println("Животное ест собачий корм");
+        System.out.println("Количество корма у животного: " + foodCounter);
 
 
     }

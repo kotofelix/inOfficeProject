@@ -40,32 +40,42 @@ public abstract class Animal {
     public Animal(String name, double foodCounter, String location) {
     }
 
-    void makeSound() {};   //выводит текст, как звучит животное
+    void makeSound() {
+    }
 
-    void eat() {};                        //выводит текст, что животное ест;
-                                         //уменьшает кол-во еды у животного;
-                                        //также выводит сколько запасов осталось
+    ;   //выводит текст, как звучит животное
+
+    void eat() {
+    }
+
+    ;                        //выводит текст, что животное ест;
+
+    //уменьшает кол-во еды у животного;
+    //также выводит сколько запасов осталось
     void sleep() {                              //выводит текст, что животное спит
         System.out.println("Животное спит");
-    };
+    }
+
+    ;
+
+
+
 
     String toString(String location, HealthState health, int counter) {            //- toString - вовзращает в виде строки текущую информацию об особи
-//        this.location = location;                                               // Формат вывода:
+        this.location = location;                                               // Формат вывода:
         String info = "";                                                         // Страна обитания: ...
         return info;                                                             // Состояние здоровья: ...
-                                                                                 // Сколько особей: ...
-            }
+        // Сколько особей: ...
+    }
 
-    public Animal(String name, String food, double foodCounter, String location, int counter, HealthState health){
+    public Animal(String name, String food, double foodCounter, String location, int counter, HealthState health) {
         this.name = name;
         this.food = food;
         this.foodCounter = foodCounter;
         this.location = location;
         this.counter = counter;
 
-}
-
-
+    }
 
 
 }

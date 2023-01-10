@@ -57,12 +57,18 @@ public class Main {
         Cat cat1 = new Cat();
         Horse horse1 = new Horse();
         Dog dog2 = new Dog();
-        dog1.makeSound();
+//        dog1.makeSound();
 
         Dog dog3 = new Dog("Boris", 100, "Russia", UNHEALTHY);
-        dog1.sleep();
-        dog1.eat();
+ //       dog1.sleep();
+ //       dog1.eat();
 
+        Vet vet1 = new Vet("Petr");
+   //     vet1.treatAnimal(dog1);
+
+  //      vet1.treatAnimal(dog3);
+
+        dog1.eat();
 
 
 

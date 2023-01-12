@@ -1,5 +1,7 @@
 package date;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 
 public class Main {
@@ -30,12 +32,36 @@ public class Main {
 
       //    MONTH = MARCH, DAY_OF_MONTH = 32;
 
-        int year = calendar.get(Calendar.YEAR);
-        System.out.println(year);
-        calendar.set(Calendar.MONTH, 02);
-        calendar.add(Calendar.HOUR, 2);
-        calendar.roll(Calendar.MINUTE, 12);
+        //    int year = calendar.get(Calendar.YEAR);
+        //    System.out.println(year);
+        //    calendar.set(Calendar.MONTH, 02);
+        //    calendar.add(Calendar.HOUR, 2);
+        //    calendar.roll(Calendar.MINUTE, 12);
 
+   //    LocalTime t1 = LocalTime.now();
+   //    System.out.println(t1);
+
+   //    LocalTime timeCreated = LocalTime.of(22, 12, 20, 577121900);
+
+   //    System.out.println(timeCreated);
+
+   //    int z = timeCreated.getHour();
+   //    System.out.println(z);
+
+    //   LocalDateTime data = LocalDateTime.now();
+    //   ZoneId zone = ZoneId.of("Africa/Niamey");
+    //   System.out.println(zone);
+    //   ZonedDateTime zonedDT = ZonedDateTime.of(data, zone);
+    //   System.out.println(zonedDT);
+
+    //   LocalDate anotherSummerDay = LocalDate.of(2022, 5, 3);
+    //   System.out.println(DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).format(anotherSummerDay));
+    //   System.out.println(DateTimeFormatter.ofLocalizedDate(FormatStyle.LONG).format(anotherSummerDay));
+    //   System.out.println(DateTimeFormatter.ofLocalizedDate(FormatStyle.MEDIUM).format(anotherSummerDay));
+    //   System.out.println(DateTimeFormatter.ofLocalizedDate(FormatStyle.SHORT).format(anotherSummerDay));
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM.dd.yy"); // здесь задаём наш формат вывода даты
+        System.out.println(formatter.format(LocalDate.now()));
 
 
 

@@ -32,17 +32,33 @@ public class Car {
     Driver driver; //водитель, за которым закреплен автомобиль
     Engine engine; //тип мотора типа Engine
 
-    public void start(){
+    public void start() {
+
         System.out.println("Поехали");
     }
-    public void stop(){
+
+    public void stop() {
+
         System.out.println("Останавливаемся");
     }
-    public void turnRight(){
+
+    public void turnRight() {
+
         System.out.println("Поворот направо");
     }
-    public void turnLeft(){
+
+    public void turnLeft() {
+
         System.out.println("Поворот налево");
+    }
+
+
+    public String toString() {
+        return "Модель: " + model + ", " + "класс: " + vehicleClass +
+                "\nХарактеристики:" +
+                "\nвес: " + weight +
+                "\nдвигатель: " + engine +
+                "\nВодитель: " + driver;
     }
 
     public Car(String model, VehicleClass vehicleClass, double weight, Driver driver, Engine engine) {
@@ -51,13 +67,5 @@ public class Car {
         this.weight = weight;
         this.driver = driver;
         this.engine = engine;
-    }
-
-    public String toString(){
-        return "Модель: " + model + ", " + "класс: " + vehicleClass +
-                "\nХарактеристики:" +
-                "\nвес: " + weight +
-                "\nдвигатель: " + engine +
-                "\nВодитель: " + driver;
     }
 }

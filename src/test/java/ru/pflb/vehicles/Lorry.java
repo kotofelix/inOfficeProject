@@ -15,13 +15,16 @@ import ru.pflb.professions.Driver;
 public class Lorry extends Car {
     double loadingAmount; //грузоподъемность в киллограммах
 
-    public Lorry(String model, VehicleClass vehicleClass, double weight, Driver driver, Engine engine) {
-        super(model, vehicleClass, weight, driver, engine);
-        this.vehicleClass = VehicleClass.MEDIUM;
-    }
-
     @Override
     public String toString() {
-        return super.toString() + "\nГрузоподъёмность: " + loadingAmount;
+
+        return super.toString() + "\nГрузоподъёмность: " + loadingAmount + " кг";
+    }
+
+    public Lorry(String model, VehicleClass vehicleClass, double weight, Driver driver, Engine engine, double loadingAmount) {
+        super(model, vehicleClass, weight, driver, engine);
+        this.vehicleClass = VehicleClass.MEDIUM;
+        this.loadingAmount = loadingAmount;
+
     }
 }

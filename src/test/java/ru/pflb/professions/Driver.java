@@ -19,6 +19,12 @@ public class Driver extends Person {
 
     @Override
     public String toString() {
-        return "-возраст: " + getAge() + "\nСтаж: " + drivingExperience + "\n№ удостоверения: " +licenseId;
+        return getName() + " возраст: " + getAge() + "\nСтаж: " + drivingExperience + "\n№ удостоверения: " + licenseId;
+    }
+
+    public Driver(int age, String name, int drivingExperience, int licenseId) {
+        super(age, name);
+        this.drivingExperience = drivingExperience;
+        this.licenseId = licenseId;
     }
 }

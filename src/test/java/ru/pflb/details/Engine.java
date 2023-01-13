@@ -10,10 +10,15 @@
 package ru.pflb.details;
 
 public class Engine {
-    double power; //значение мощности двигателя в ваттах
+    int power; //значение мощности двигателя в ваттах
     String vendor; //название производителя
 
     public String toString() {
-        return "-" + power + " " + vendor;
+        return "\nПроизводитель: " + vendor + "\nМощность: " + power + " л.с.";
+    }
+
+    public Engine(int power, String vendor) {
+        this.power = power;
+        this.vendor = vendor;
     }
 }

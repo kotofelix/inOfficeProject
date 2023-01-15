@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="анимал абстрактный + в кар.мэйн создал объекты">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="поправил 1,2, 5,6">
       <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/HealthState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/HealthState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Horse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673814633440</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="поправил 1,2, 5,6">
+      <created>1673816580722</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673816580722</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -299,6 +301,7 @@
     <MESSAGE value="поменял названия пакетов" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal" />
     <MESSAGE value="анимал абстрактный + в кар.мэйн создал объекты" />
-    <option name="LAST_COMMIT_MESSAGE" value="анимал абстрактный + в кар.мэйн создал объекты" />
+    <MESSAGE value="поправил 1,2, 5,6" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправил 1,2, 5,6" />
   </component>
 </project>

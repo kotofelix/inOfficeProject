@@ -43,7 +43,10 @@ public abstract class Animal {
 
     //выводит текст, как звучит животное
     void eat(double eatFood) {
+        System.out.println("Животное " + name + " ест корм");
         foodCounter = foodCounter - eatFood;
+        System.out.println("Оставшееся количество корма: " + foodCounter);
+
     }
 
     //выводит текст, что животное ест;

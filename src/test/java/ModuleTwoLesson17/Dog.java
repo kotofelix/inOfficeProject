@@ -18,12 +18,12 @@ public class Dog extends Animal {
         System.out.println("Гав-гав");
     }
 
-    @Override
-    void eat(double eatFood) {
-        super.eat(eatFood);
-        System.out.println("Животное ест собачий корм");
-        System.out.println("Количество корма у животного: " + foodCounter);
-    }
+ //   @Override
+ //   void eat(double eatFood) {
+ //       super.eat(eatFood);
+ //       System.out.println("Животное ест собачий корм");
+ //       System.out.println("Количество корма у животного: " + foodCounter);
+ //   }
 
     @Override
     public String toString() {

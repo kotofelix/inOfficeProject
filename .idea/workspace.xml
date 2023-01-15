@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/pflb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/pflb/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/details/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/pflb/details/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/professions/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/pflb/professions/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/Lorry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/SportCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,29 +20,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="duplicateForComment" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2IqlfWPZBgNui00jR02qnaEuEqs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -70,7 +52,20 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.pflb.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.pflb.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pflb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.DaysOfWeekEnum.MainE" />
       <module name="inOfficeProject" />
@@ -123,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.pflb.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.pflb.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.pflb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ru.pflb.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ModuleTwoLesson17.Main" />
-        <item itemvalue="Application.ModuleTwoLesson13.localDateTest.Main" />
-        <item itemvalue="Application.ModuleTwoLesson13.DaysOfWeekHomeMade.Main" />
         <item itemvalue="Application.MainE" />
+        <item itemvalue="Application.ModuleTwoLesson13.DaysOfWeekHomeMade.Main" />
+        <item itemvalue="Application.ModuleTwoLesson13.localDateTest.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -274,28 +256,7 @@
       <option name="project" value="LOCAL" />
       <updated>1673260762283</updated>
     </task>
-    <task id="LOCAL-00018" summary="добавил заготовку по ДЗ с Animal+">
-      <created>1673271332179</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1673271332179</updated>
-    </task>
-    <task id="LOCAL-00019" summary="+Vet лечит">
-      <created>1673346022762</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1673346022762</updated>
-    </task>
-    <task id="LOCAL-00020" summary="+Vet лечит">
-      <created>1673444390365</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1673444390365</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,8 +286,6 @@
     <MESSAGE value="+Add Chelovek2" />
     <MESSAGE value="поменял названия пакетов" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal" />
-    <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
-    <MESSAGE value="+Vet лечит" />
-    <option name="LAST_COMMIT_MESSAGE" value="+Vet лечит" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил заготовку по ДЗ с Animal" />
   </component>
 </project>

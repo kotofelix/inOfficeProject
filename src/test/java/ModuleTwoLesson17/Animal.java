@@ -25,6 +25,13 @@
 package ModuleTwoLesson17;
 
 public abstract class Animal {
+    public HealthState getHealth() {
+        return health;
+    }
+    public void setHealth(HealthState health) {
+        this.health = health;
+    }
+
     public Animal(String name, double foodCounter, String location, HealthState health) {
         this.name = name;
         this.foodCounter = foodCounter;

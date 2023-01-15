@@ -18,10 +18,10 @@ public class Vet {
     }
 
     void treatAnimal(Animal animal) {
-        if (animal.health.equals(HealthState.HEALTHY)) {
+        if (animal.getHealth().equals(HealthState.HEALTHY)) {
             System.out.println("Животное здорово");
         } else {
-            animal.health = HealthState.HEALTHY;
+            animal.setHealth(HealthState.HEALTHY);
             System.out.println("Животное вылечено");
         }
     }

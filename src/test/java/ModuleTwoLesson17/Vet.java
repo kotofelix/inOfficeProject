@@ -24,6 +24,5 @@ public class Vet {
             animal.health = HealthState.HEALTHY;
             System.out.println("Животное вылечено");
         }
-
     }
 }

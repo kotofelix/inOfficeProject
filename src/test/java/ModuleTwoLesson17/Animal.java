@@ -25,6 +25,13 @@
 package ModuleTwoLesson17;
 
 public abstract class Animal {
+    public Animal(String name, double foodCounter, String location, HealthState health) {
+        this.name = name;
+        this.foodCounter = foodCounter;
+        this.location = location;
+        this.health = health;
+    }
+
     String name;            // кличка животного
     String food;            //название типа пищи
     double foodCounter;     //кол-во запасов пищи
@@ -36,7 +43,6 @@ public abstract class Animal {
 
     //выводит текст, как звучит животное
     void eat(double eatFood) {
-
         foodCounter = foodCounter - eatFood;
     }
 
@@ -44,8 +50,7 @@ public abstract class Animal {
     //уменьшает кол-во еды у животного;
     //также выводит сколько запасов осталось
     void sleep() {                              //выводит текст, что животное спит
-
-        System.out.println("Животное спит");
+        System.out.println(name + " спит");
     }
 
     public String toString() {
@@ -64,20 +69,15 @@ public abstract class Animal {
         this.foodCounter = foodCounter;
         this.location = location;
         counter++;
-
     }
 
     public Animal() {
-
         counter++;
     }
 
     public Animal(String name, double foodCounter, String location) {
-
         counter++;
     }
-
-
 }
 
 

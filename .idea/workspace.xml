@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="мелкие изменения">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/DaysOfWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/Week.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/date2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dateOfBirth/DateOfMyBirth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +68,20 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ModuleTwoLesson17.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="date2.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="date2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.DaysOfWeekEnum.MainE" />
       <module name="inOfficeProject" />
@@ -79,38 +95,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModuleTwoLesson13.DaysOfWeekHomeMade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.DaysOfWeekHomeMade.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ModuleTwoLesson13.DaysOfWeekHomeMade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ModuleTwoLesson13.localDateTest.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.localDateTest.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ModuleTwoLesson13.localDateTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ModuleTwoLesson17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson17.Main" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ModuleTwoLesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pavlin.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pavlin.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Pavlin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Pavlin.Main" />
+        <item itemvalue="Application.MainE" />
         <item itemvalue="Application.ModuleTwoLesson17.Main" />
         <item itemvalue="Application.ru.pflb.Main" />
-        <item itemvalue="Application.ModuleTwoLesson13.localDateTest.Main" />
-        <item itemvalue="Application.ModuleTwoLesson13.DaysOfWeekHomeMade.Main" />
-        <item itemvalue="Application.MainE" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +293,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673444390365</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="мелкие изменения">
+      <created>1673849902515</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1673849902515</updated>
+    </task>
+    <task id="LOCAL-00022" summary="мелкие изменения">
+      <created>1673849990193</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1673849990193</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +339,7 @@
     <MESSAGE value="добавил заготовку по ДЗ с Animal" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
     <MESSAGE value="+Vet лечит" />
-    <option name="LAST_COMMIT_MESSAGE" value="+Vet лечит" />
+    <MESSAGE value="мелкие изменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="мелкие изменения" />
   </component>
 </project>

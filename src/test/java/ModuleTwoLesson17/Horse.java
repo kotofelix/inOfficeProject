@@ -18,10 +18,10 @@ public class Horse extends Animal {
         System.out.println("Иго-го");
     }
 
- //  @Override
- //  public void eat(double eatFood) {
- //      super.eat(eatFood);
- //      System.out.println("Животное ест сено");
- //      System.out.println("Количество корма у животного: " + foodCounter);
- //  }
+    //  @Override
+    //  public void eat(double eatFood) {
+    //      super.eat(eatFood);
+    //      System.out.println("Животное ест сено");
+    //      System.out.println("Количество корма у животного: " + foodCounter);
+    //  }
 }

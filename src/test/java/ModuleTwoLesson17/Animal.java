@@ -25,19 +25,6 @@
 package ModuleTwoLesson17;
 
 public abstract class Animal {
-    public HealthState getHealth() {
-        return health;
-    }
-    public void setHealth(HealthState health) {
-        this.health = health;
-    }
-
-    public Animal(String name, double foodCounter, String location, HealthState health) {
-        this.name = name;
-        this.foodCounter = foodCounter;
-        this.location = location;
-        this.health = health;
-    }
 
     String name;            // кличка животного
     String food;            //название типа пищи
@@ -45,6 +32,12 @@ public abstract class Animal {
     String location;        //название страны обитания
     static int counter = 0; //все животные имеют внутреннюю связь с сородичами, в переменной содержится общее кол-во осыбей данного вида
     HealthState health; //состояние здоровья животного типа HealthState. Возможные значения HealthState: HEALTHY, UNHEALTHY
+    public HealthState getHealth() {
+        return health;
+    }
+    public void setHealth(HealthState health) {
+        this.health = health;
+    }
 
     abstract void makeSound();
 
@@ -78,6 +71,13 @@ public abstract class Animal {
         this.food = food;
         this.foodCounter = foodCounter;
         this.location = location;
+        counter++;
+    }
+    public Animal(String name, double foodCounter, String location, HealthState health) {
+        this.name = name;
+        this.foodCounter = foodCounter;
+        this.location = location;
+        this.health = health;
         counter++;
     }
 

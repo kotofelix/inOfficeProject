@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="поправил 1,2, 5,6 + 4">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +21,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="duplicateForComment" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2IqlfWPZBgNui00jR02qnaEuEqs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -54,19 +66,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ModuleTwoLesson17.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.pflb.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.pflb.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.DaysOfWeekEnum.MainE" />
       <module name="inOfficeProject" />
@@ -119,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.pflb.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.pflb.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.pflb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ModuleTwoLesson17.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.MainE" />
-        <item itemvalue="Application.ModuleTwoLesson13.DaysOfWeekHomeMade.Main" />
+        <item itemvalue="Application.ru.pflb.Main" />
         <item itemvalue="Application.ModuleTwoLesson13.localDateTest.Main" />
+        <item itemvalue="Application.ModuleTwoLesson13.DaysOfWeekHomeMade.Main" />
+        <item itemvalue="Application.MainE" />
       </list>
     </recent_temporary>
   </component>
@@ -257,26 +269,26 @@
       <option name="project" value="LOCAL" />
       <updated>1673260762283</updated>
     </task>
-    <task id="LOCAL-00018" summary="анимал абстрактный + в кар.мэйн создал объекты">
-      <created>1673814633440</created>
+    <task id="LOCAL-00018" summary="добавил заготовку по ДЗ с Animal+">
+      <created>1673271332179</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1673814633440</updated>
+      <updated>1673271332179</updated>
     </task>
-    <task id="LOCAL-00019" summary="поправил 1,2, 5,6">
-      <created>1673816580722</created>
+    <task id="LOCAL-00019" summary="+Vet лечит">
+      <created>1673346022762</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1673816580722</updated>
+      <updated>1673346022762</updated>
     </task>
-    <task id="LOCAL-00020" summary="поправил 1,2, 5,6 + 4">
-      <created>1673817101050</created>
+    <task id="LOCAL-00020" summary="+Vet лечит">
+      <created>1673444390365</created>
       <option name="number" value="00020" />
       <option name="presentableId" value="LOCAL-00020" />
       <option name="project" value="LOCAL" />
-      <updated>1673817101050</updated>
+      <updated>1673444390365</updated>
     </task>
     <option name="localTasksCounter" value="21" />
     <servers />
@@ -308,9 +320,8 @@
     <MESSAGE value="+Add Chelovek2" />
     <MESSAGE value="поменял названия пакетов" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal" />
-    <MESSAGE value="анимал абстрактный + в кар.мэйн создал объекты" />
-    <MESSAGE value="поправил 1,2, 5,6" />
-    <MESSAGE value="поправил 1,2, 5,6 + 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="поправил 1,2, 5,6 + 4" />
+    <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
+    <MESSAGE value="+Vet лечит" />
+    <option name="LAST_COMMIT_MESSAGE" value="+Vet лечит" />
   </component>
 </project>

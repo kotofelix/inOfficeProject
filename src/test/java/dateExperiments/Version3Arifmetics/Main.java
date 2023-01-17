@@ -46,6 +46,12 @@ public class Main {
         System.out.println("Текущее время ZonedDateTime: " + currentZonedDateTime);
         LocalDateTime proshloVremeniZonedTime = (currentZonedDateTime.minusYears(myDayOfBirthZonedDateTime.getYear())).minusDays(myDayOfBirthZonedDateTime.getDayOfYear()).toLocalDateTime();
         System.out.println("Прошло времени с момента рождения(ZonedDateTime)) :  " + proshloVremeniZonedTime);
+        Period period = Period.between(myDayOfBirthZonedDateTime.toLocalDate(), currentZonedDateTime.toLocalDate());
+   //     System.out.println("period" + period);
+        int pYear = period.getYears();
+        int pMonth = period.getMonths();
+        int pdays = period.getDays();
+        System.out.println("Year " + pYear + " Month " + pMonth + " Day " + pdays);
         System.out.println();
 
         GregorianCalendar myDayOfBirthGregorianCalendar = new GregorianCalendar(1988, 03, 24, 12, 20, 3); // дата рождения класса GregorianCalendar
@@ -53,6 +59,9 @@ public class Main {
         Date dateGregor = currentGregorianCalendar.getTime();
         System.out.println("Текущее время в GregorianCalendar " + dateGregor);
                 System.out.println("Разница во времени в GregorianCalendar между датой рождения и текущей: " + Duration.between(currentGregorianCalendar.toZonedDateTime(), myDayOfBirthGregorianCalendar.toZonedDateTime()));
+        //   Period periodZ = Period.between(myDayOfBirthGregorianCalendar.toZonedDateTime(), currentGregorianCalendar.toZonedDateTime());
+
+
         //     Calendar calendar = new GregorianCalendar();
         //    System.out.println("Текущее время GregorianCalendar: " + calendar.toString());
         //    System.out.println();

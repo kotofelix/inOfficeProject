@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="мелкие изменения">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/DaysOfWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pavlin/Week.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/date2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/dateOfBirth/DateOfMyBirth.java" afterDir="false" />
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/date2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/date2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dateOfBirth/DateOfMyBirth.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673849990193</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="дз по датам">
+      <created>1673875993633</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1673875993634</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,6 +343,7 @@
     <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
     <MESSAGE value="+Vet лечит" />
     <MESSAGE value="мелкие изменения" />
-    <option name="LAST_COMMIT_MESSAGE" value="мелкие изменения" />
+    <MESSAGE value="дз по датам" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз по датам" />
   </component>
 </project>

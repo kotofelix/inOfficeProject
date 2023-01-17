@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/Version3Arifmetics/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dateOfBirth/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/date2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/date2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateOfBirth/DateOfMyBirth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/date/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/Version1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/date2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/Version2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +66,13 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.dateOfBirth.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="date2.Main" />
+      <option name="MAIN_CLASS_NAME" value="dateExperiments.Version2.Main" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="date2.*" />
+          <option name="PATTERN" value="dateExperiments.Version2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,19 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModuleTwoLesson17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson17.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ModuleTwoLesson17.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Pavlin.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pavlin.Main" />
       <module name="inOfficeProject" />
@@ -117,12 +106,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ru.pflb.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.pflb.Main" />
+    <configuration name="dateExperiments.Version3Arifmetics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dateExperiments.Version3Arifmetics.Main" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.pflb.*" />
+          <option name="PATTERN" value="dateExperiments.Version3Arifmetics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dateOfBirth.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dateOfBirth.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dateOfBirth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dateOfBirth.Main" />
+        <item itemvalue="Application.dateExperiments.Version3Arifmetics.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Pavlin.Main" />
         <item itemvalue="Application.MainE" />
-        <item itemvalue="Application.ModuleTwoLesson17.Main" />
-        <item itemvalue="Application.ru.pflb.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -310,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673875993634</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Date 1 задание + 3 и 4 готово">
+      <created>1673935709077</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1673935709077</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,6 +353,7 @@
     <MESSAGE value="+Vet лечит" />
     <MESSAGE value="мелкие изменения" />
     <MESSAGE value="дз по датам" />
-    <option name="LAST_COMMIT_MESSAGE" value="дз по датам" />
+    <MESSAGE value="Date 1 задание + 3 и 4 готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date 1 задание + 3 и 4 готово" />
   </component>
 </project>

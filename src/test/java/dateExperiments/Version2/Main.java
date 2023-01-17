@@ -1,4 +1,4 @@
-package date2;
+package dateExperiments.Version2;
 
 import java.text.SimpleDateFormat;
 import java.time.*;
@@ -69,8 +69,14 @@ public class Main {
         System.out.println();
 
 
+        //     LocalDate myDayOfBirthLocalDate = LocalDate.of(1988, 03, 24); // дата рождения класса LocalDate
         LocalDate localDateNow = LocalDate.now();
         System.out.println("Текущее время LocalDate: " + localDateNow);
+        System.out.println();
+        LocalDate currentMinusYearOfDob = localDateNow.minusYears(myDayOfBirthLocalDate.getYear());
+        LocalDate currentMinusMonthOfDob = currentMinusYearOfDob.minusMonths(myDayOfBirthLocalDate.getMonthValue());
+        LocalDate currentMinusDaysOfDob = currentMinusMonthOfDob.minusDays(myDayOfBirthLocalDate.getDayOfMonth());
+        System.out.println("Прошло времени с момента рождения(лет-месяцев-дней):  " + currentMinusDaysOfDob);
         System.out.println();
         //System.out.println(new SimpleDateFormat("dd_MM").format(myDayOfBirthDate));
 
@@ -93,7 +99,6 @@ public class Main {
 
         Instant timeStartZonedDateTime = Instant.now();
         ZonedDateTime myDayOfBirthZonedDateTime = ZonedDateTime.of(1988, 03, 24, 12, 3, 45, 50, ZoneId.of("UTC+4")); // дата рождения класса ZonedDateTime
-
         System.out.println("Вывод даты рождения в различных форматах для класса ZonedDateTime:");
         System.out.println("Мой паттерн: " + DateTimeFormatter.ofPattern("MM-dd-yyyy").format(myDayOfBirthZonedDateTime));
         System.out.println("ISO_ORDINAL_DATE: " + DateTimeFormatter.ISO_ORDINAL_DATE.format(myDayOfBirthZonedDateTime));

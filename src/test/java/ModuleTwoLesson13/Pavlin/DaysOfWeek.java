@@ -1,4 +1,4 @@
-package Pavlin;
+package ModuleTwoLesson13.Pavlin;
 
 public class DaysOfWeek {
 

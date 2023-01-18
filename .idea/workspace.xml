@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="Date completed + refactoring">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateExperiments/Version3Arifmetics/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/Version3Arifmetics/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateOfBirth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateOfBirth/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dateOfBirth.Main">
+  <component name="RunManager" selected="Application.Test3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dateExperiments.Version2.Main" />
       <module name="inOfficeProject" />
@@ -81,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.DaysOfWeekEnum.MainE" />
+    <configuration name="Pavlin.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pavlin.Main" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModuleTwoLesson13.DaysOfWeekEnum.*" />
+          <option name="PATTERN" value="Pavlin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pavlin.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pavlin.Main" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test3" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pavlin.*" />
+          <option name="PATTERN" value="TestPackage1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test3" />
         <item itemvalue="Application.dateOfBirth.Main" />
         <item itemvalue="Application.dateExperiments.Version3Arifmetics.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Pavlin.Main" />
-        <item itemvalue="Application.MainE" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673956332357</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Date completed + refactoring++">
+      <created>1674022917085</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1674022917085</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,6 +381,7 @@
     <MESSAGE value="Date 1 задание + 3 и 4 готово" />
     <MESSAGE value="Date completed" />
     <MESSAGE value="Date completed + refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date completed + refactoring" />
+    <MESSAGE value="Date completed + refactoring++" />
+    <option name="LAST_COMMIT_MESSAGE" value="Date completed + refactoring++" />
   </component>
 </project>

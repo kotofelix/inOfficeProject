@@ -4,11 +4,6 @@ public class Dog extends Animal {
     Dog(String name, double foodCounter, String location, HealthState health) {
         super(name, foodCounter, location, health);
     }
-    //     super.name = name;
-    //     super.foodCounter = foodCounter;
-    //     super.location = location;
-    //     super.health = health;
-    // }
 
     public Dog() {
     }

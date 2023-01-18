@@ -59,7 +59,8 @@ public abstract class Animal {
     }
 
     public String toString() {
-        return "Страна обитания: " + location + "\nСостояние здоровья: " + health + "\nОбщее количество животных: " + counter;
+        return "Страна обитания: " + location + "\nСостояние здоровья: " + health
+                + "\nОбщее количество животных: " + counter;
     }
 
     // toString - вовзращает в виде строки текущую информацию об особи

@@ -58,8 +58,9 @@ public class Main {
         GregorianCalendar currentGregorianCalendar = (GregorianCalendar) GregorianCalendar.getInstance();
         Date dateGregor = currentGregorianCalendar.getTime();
         System.out.println("Текущее время в GregorianCalendar " + dateGregor);
-                System.out.println("Разница во времени в GregorianCalendar между датой рождения и текущей: " + Duration.between(currentGregorianCalendar.toZonedDateTime(), myDayOfBirthGregorianCalendar.toZonedDateTime()));
-        //   Period periodZ = Period.between(myDayOfBirthGregorianCalendar.toZonedDateTime(), currentGregorianCalendar.toZonedDateTime());
+        System.out.println("Разница во времени в GregorianCalendar между датой рождения и текущей: " + Duration.between(currentGregorianCalendar.toZonedDateTime(), myDayOfBirthGregorianCalendar.toZonedDateTime()));
+
+     //   Period periodZ = Period.between(myDayOfBirthGregorianCalendar.toZonedDateTime(), dateGregor.to);
 
 
         //     Calendar calendar = new GregorianCalendar();

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="master-Animal" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,13 +67,26 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test3">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dateExperiments.Version2.Main" />
+  <component name="RunManager" selected="Application.Test4">
+    <configuration name="MainE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson13.DaysOfWeekEnum.MainE" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dateExperiments.Version2.*" />
+          <option name="PATTERN" value="ModuleTwoLesson13.DaysOfWeekEnum.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleTwoLesson17.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModuleTwoLesson17.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModuleTwoLesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,8 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test3" />
+    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test4" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="14 7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test5" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
@@ -103,39 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dateExperiments.Version3Arifmetics.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dateExperiments.Version3Arifmetics.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dateExperiments.Version3Arifmetics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dateOfBirth.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dateOfBirth.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dateOfBirth.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.dateOfBirth.Main" />
-        <item itemvalue="Application.dateExperiments.Version3Arifmetics.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test4" />
+        <item itemvalue="Application.Test5" />
+        <item itemvalue="Application.ModuleTwoLesson17.Main" />
         <item itemvalue="Application.Pavlin.Main" />
+        <item itemvalue="Application.MainE" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674022917085</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Date completed + refactoring++">
+      <created>1674105999210</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1674105999210</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -383,5 +395,10 @@
     <MESSAGE value="Date completed + refactoring" />
     <MESSAGE value="Date completed + refactoring++" />
     <option name="LAST_COMMIT_MESSAGE" value="Date completed + refactoring++" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>TestPackage1.*</FILTER>
+    </SUITE>
   </component>
 </project>

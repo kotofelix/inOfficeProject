@@ -24,5 +24,17 @@ public class Vet {
             animal.setHealth(HealthState.HEALTHY);
             System.out.println("Животное вылечено");
         }
+
+        /*
+         void treatAnimal(Animal animal) {
+        if (animal.health.equals(HealthState.HEALTHY)) {
+            System.out.println("Животное здорово");
+        } else {
+            animal.health = HealthState.HEALTHY;
+            System.out.println("Животное вылечено");
+        }
+
+         */
+
     }
 }

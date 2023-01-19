@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="поправил 1,2,3,4,5,6">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/TestToDoAndMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/TryCatchTest1.java" afterDir="false" />
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+ тест">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/SchetPodProcent.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/Version3Arifmetics/version2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dateOfBirth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateOfBirth/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test4">
+  <component name="RunManager" selected="Application.SchetPodProcent">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dateExperiments.Version2.Main" />
       <module name="inOfficeProject" />
@@ -87,6 +85,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Pavlin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchetPodProcent" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.SchetPodProcent" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="40000 0.05 5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -335,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673950629838</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="+ тест">
+      <created>1674158525797</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674158525797</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -372,6 +391,7 @@
     <MESSAGE value="Date 1 задание + 3 и 4 готово" />
     <MESSAGE value="Date completed" />
     <MESSAGE value="Date completed + refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date completed + refactoring" />
+    <MESSAGE value="+ тест" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ тест" />
   </component>
 </project>

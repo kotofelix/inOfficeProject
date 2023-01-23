@@ -26,7 +26,9 @@ public class Main {
         Engine engineCar = new Engine(77, "LADA");
 
         Lorry lorry1 = new Lorry("Maz", VehicleClass.LARGE, 23131, driverLorry1, engineLorry1, 23244);
-        SportCar sportCar1 = new SportCar("Kia", VehicleClass.SPORTS_CAR, 1475, driverSportCar1, engineSportCar);
+        SportCar sportCar1 = new SportCar("Kia", VehicleClass.SPORTS_CAR, 1475, driverSportCar1, engineSportCar, 645);
+        SportCar sportCar2 = new SportCar("Kia2", VehicleClass.SPORTS_CAR, 1475, driverSportCar1, engineSportCar, 245);
+        System.out.println(sportCar2.toString());
         Car car1 = new Car("Granta", VehicleClass.SMALL, 1148, driverCar, engineCar);
 
         System.out.println(driverCar.toString());
@@ -35,7 +37,7 @@ public class Main {
         System.out.println();
         System.out.println(lorry1.toString());
         System.out.println();
-        System.out.println(sportCar1.toString());
+        System.out.println("sportCar " + sportCar1.toString());
         System.out.println();
         System.out.println(car1.toString());
         System.out.println();

@@ -5,63 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/CarClass1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/CarClass1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/ChelovekClassCreate/Version2/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/EmployeeOffice/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/EmployeeOffice/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/EmployeeOffice/Lawer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/EmployeeOffice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Moodle_2_14_Enum/Class2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/PackStaticTest/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/PackStaticTest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/TestNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test555.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChelovekClassCreate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/ChelovekClassCreate/Version1Light/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChelovekClassCreate/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/ChelovekClassCreate/Version1Light/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ChelovekClassCreateExtendsVersion/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ClassesCreatingTest/ChelovekClassCreateExtendsVersion/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IntPlusBigIntDouble/Arifmetics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ArifmeticsIntBigIntDouble/Arifmetics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/DayE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/DaysOfWeekEnum/DayE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/DaysOfWeekE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/DaysOfWeekEnum/DaysOfWeekE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/MainE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/DaysOfWeekEnum/MainE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekEnum/WeekE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/DaysOfWeekEnum/WeekE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/DaysOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/DaysOfWeekHomeMade/DaysOfWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/DaysOfWeekHomeMade/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/DaysOfWeekHomeMade/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/DaysOfWeekHomeMade/Week.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Moodle_2_14_Enum/Class2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Moodle_2_14_Enum/DayOfWeek/DayOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Moodle_2_14_Enum/DayOfWeek/DayOfWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Moodle_2_14_Enum/DayOfWeek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Moodle_2_14_Enum/DayOfWeek/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Pavlin/Day.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Pavlin/Day.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Pavlin/DaysOfWeek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Pavlin/DaysOfWeek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Pavlin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Pavlin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson13/Pavlin/Week.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoDayOfWeekAndCircle/Pavlin/Week.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/HealthState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/HealthState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Horse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/Horse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoLesson17/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/Vet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PackageImport/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImportMethodTest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PackageImport/cars/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ImportMethodTest/cars/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Staics/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlocksInitization/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Staics/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlocksInitization/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Staics/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlocksInitization/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Staics/Initialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BlocksInitization/Initialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateExperiments/Version1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/Version1DateTest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateExperiments/Version2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/Version2Format/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateExperiments/checkLocalDate/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateExperiments/localDateTest/Day.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/dateOfBirth/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dateExperiments/dateOfBirthHomeWork/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/details/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/details/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/professions/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/professions/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/Lorry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/SportCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/pflb/vehicles/VehicleClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/VehicleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/SportCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +73,13 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test4">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModuleTwoAnimalAndCar.Animal.Main" />
+  <component name="RunManager" selected="Application.Test555">
+    <configuration name="Boo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.StaticOurNotStaticPrimitive.Boo" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModuleTwoAnimalAndCar.Animal.*" />
+          <option name="PATTERN" value="TestPackage1.StaticOurNotStaticPrimitive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModuleTwoDayOfWeekAndCircle.DaysOfWeekEnum.MainE" />
+    <configuration name="Initialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlocksInitization.Initialization" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ModuleTwoDayOfWeekAndCircle.DaysOfWeekEnum.*" />
+          <option name="PATTERN" value="BlocksInitization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pavlin.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pavlin.Main" />
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.Constructors.Test2" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pavlin.*" />
+          <option name="PATTERN" value="TestPackage1.Constructors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,13 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test4" />
+    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.StaticOurNotStaticPrimitive.Test3" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="14 7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestPackage1.*" />
+          <option name="PATTERN" value="TestPackage1.StaticOurNotStaticPrimitive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test5" />
+    <configuration name="Test555" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.StaticOurNotStaticPrimitive.Test555" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestPackage1.*" />
+          <option name="PATTERN" value="TestPackage1.StaticOurNotStaticPrimitive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,10 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Pavlin.Main" />
-        <item itemvalue="Application.MainE" />
+        <item itemvalue="Application.Test555" />
+        <item itemvalue="Application.Initialization" />
+        <item itemvalue="Application.Test3" />
+        <item itemvalue="Application.Boo" />
+        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -406,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674105999210</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="refactoring package">
+      <created>1674193849062</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1674193849062</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +406,19 @@
     <MESSAGE value="Date completed" />
     <MESSAGE value="Date completed + refactoring" />
     <MESSAGE value="Date completed + refactoring++" />
-    <option name="LAST_COMMIT_MESSAGE" value="Date completed + refactoring++" />
+    <MESSAGE value="refactoring package" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring package" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test555.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

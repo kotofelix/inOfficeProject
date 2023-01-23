@@ -23,8 +23,9 @@ public class SportCar extends Car {
         return super.toString() + "\nмаксимальная скорость: " + maxVelocity + "км/ч";
     }
 
-    public SportCar(String model, VehicleClass vehicleClass, double weight, Driver driver, Engine engine) {
+    public SportCar(String model, VehicleClass vehicleClass, double weight, Driver driver, Engine engine, int maxVelocity) {
         super(model, vehicleClass, weight, driver, engine);
         this.vehicleClass = VehicleClass.SPORTS_CAR;
+        this.maxVelocity = maxVelocity;
     }
 }

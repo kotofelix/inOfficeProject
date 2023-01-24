@@ -23,7 +23,7 @@ public class Lorry extends Car {
 
     public Lorry(String model, VehicleClass vehicleClass, double weight, Driver driver, Engine engine, double loadingAmount) {
         super(model, vehicleClass, weight, driver, engine);
-        this.vehicleClass = VehicleClass.MEDIUM;
+
         this.loadingAmount = loadingAmount;
 
     }

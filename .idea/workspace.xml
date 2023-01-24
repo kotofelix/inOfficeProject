@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Constructors/TestNew.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test555.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/SportCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/SportCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +63,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test555">
+  <component name="RunManager" selected="Application.Cat">
     <configuration name="Boo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestPackage1.StaticOurNotStaticPrimitive.Boo" />
       <module name="inOfficeProject" />
@@ -87,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Initialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BlocksInitization.Initialization" />
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HwMethodAndIncapsulation.Cat" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BlocksInitization.*" />
+          <option name="PATTERN" value="HwMethodAndIncapsulation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.Constructors.Test2" />
+    <configuration name="Initialization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BlocksInitization.Initialization" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestPackage1.Constructors.*" />
+          <option name="PATTERN" value="BlocksInitization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cat" />
         <item itemvalue="Application.Test555" />
         <item itemvalue="Application.Initialization" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.Boo" />
-        <item itemvalue="Application.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -368,7 +358,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674193849062</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="+++">
+      <created>1674481326034</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674481326034</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,18 +404,8 @@
     <MESSAGE value="Date completed + refactoring" />
     <MESSAGE value="Date completed + refactoring++" />
     <MESSAGE value="refactoring package" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring package" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/StaticOurNotStaticPrimitive/Test555.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="+++" />
+    <option name="LAST_COMMIT_MESSAGE" value="+++" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

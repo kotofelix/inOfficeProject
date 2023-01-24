@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Summa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Sums.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/Lorry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/CarsType/pflb/vehicles/Lorry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Summa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Summa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674546936714</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="+HW Cat + HW Summa">
+      <created>1674564719010</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1674564719010</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,7 +395,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HomeMade" />
     <MESSAGE value="HomeMade1" />
     <MESSAGE value="HomeMade1+" />
     <MESSAGE value="HomeMade1++" />
@@ -415,7 +419,8 @@
     <MESSAGE value="refactoring package" />
     <MESSAGE value="+++" />
     <MESSAGE value="+HW Cat" />
-    <option name="LAST_COMMIT_MESSAGE" value="+HW Cat" />
+    <MESSAGE value="+HW Cat + HW Summa" />
+    <option name="LAST_COMMIT_MESSAGE" value="+HW Cat + HW Summa" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

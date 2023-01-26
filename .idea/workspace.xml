@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+3 задание">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaRushTestFreeTask/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testG/DayOfWeek.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation2/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation2/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation2/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Summa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HwMethodAndIncapsulation/Summa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2IqlfWPZBgNui00jR02qnaEuEqs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,50 +66,10 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Animal">
-    <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HwMethodAndIncapsulation2.Animal" />
+  <component name="RunManager" selected="Application.ModuleTwoDayOfWeekAndCircle.DaysOfWeekHomeMade.Main">
+    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HwMethodAndIncapsulation.Cat" />
       <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HwMethodAndIncapsulation2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModuleTwoDayOfWeekAndCircle.DaysOfWeekEnum.MainE" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ModuleTwoDayOfWeekAndCircle.DaysOfWeekEnum.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Pavlin.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pavlin.Main" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Pavlin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test4" />
-      <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="14 7" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TestPackage1.*" />
@@ -111,8 +80,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test5" />
+    <configuration name="DayOfWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testG.DayOfWeek" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModuleTwoAnimalAndCar.Animal.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModuleTwoAnimalAndCar.Animal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleTwoDayOfWeekAndCircle.DaysOfWeekHomeMade.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ModuleTwoDayOfWeekAndCircle.DaysOfWeekHomeMade.Main" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ModuleTwoDayOfWeekAndCircle.DaysOfWeekHomeMade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Summa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HwMethodAndIncapsulation.Summa" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Animal" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test5" />
-        <item itemvalue="Application.Pavlin.Main" />
-        <item itemvalue="Application.MainE" />
+        <item itemvalue="Application.ModuleTwoDayOfWeekAndCircle.DaysOfWeekHomeMade.Main" />
+        <item itemvalue="Application.DayOfWeek" />
+        <item itemvalue="Application.Summa" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Cat" />
       </list>
     </recent_temporary>
   </component>
@@ -346,14 +354,35 @@
       <option name="project" value="LOCAL" />
       <updated>1674105999210</updated>
     </task>
-    <task id="LOCAL-00030" summary="+3 задание">
-      <created>1674586353797</created>
+    <task id="LOCAL-00030" summary="refactoring package">
+      <created>1674193849062</created>
       <option name="number" value="00030" />
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1674586353797</updated>
+      <updated>1674193849062</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="+++">
+      <created>1674481326034</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1674481326034</updated>
+    </task>
+    <task id="LOCAL-00032" summary="+HW Cat">
+      <created>1674546936714</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1674546936714</updated>
+    </task>
+    <task id="LOCAL-00033" summary="+HW Cat + HW Summa">
+      <created>1674564719010</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1674564719010</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,7 +398,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="HomeMade" />
     <MESSAGE value="HomeMade1" />
     <MESSAGE value="HomeMade1+" />
     <MESSAGE value="HomeMade1++" />
@@ -391,18 +419,11 @@
     <MESSAGE value="Date completed" />
     <MESSAGE value="Date completed + refactoring" />
     <MESSAGE value="Date completed + refactoring++" />
-    <MESSAGE value="+3 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="+3 задание" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ModuleTwoAnimalAndCar/Animal/Animal.java</url>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="refactoring package" />
+    <MESSAGE value="+++" />
+    <MESSAGE value="+HW Cat" />
+    <MESSAGE value="+HW Cat + HW Summa" />
+    <option name="LAST_COMMIT_MESSAGE" value="+HW Cat + HW Summa" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

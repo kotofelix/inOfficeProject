@@ -25,8 +25,7 @@ public class Summa {
     double x;
     double y;
     double z;
-    Integer num1;
-    Integer num2;
+
 
     Summa() {
     }
@@ -51,22 +50,26 @@ public class Summa {
         return a + x + y;
     }
 
-    double sumDoubleInts(int num1, int num2) {
-        return num1 + num2;
-    }
+    //метод ниже закомментировал т.к. он конфликтует с другим похожим методом и java не знает какой метод ей использовать
+    // double sum(int num3, int num4) {
 
-    double sumInteger(Integer num1, Integer num2) {
+    //     return num3 + num4;
+    // }
+
+    double sum(Integer num1, Integer num2) {
         return num1 + num2;
     }
 
     public static void main(String[] args) {
+        Integer num1 = 12457;
+        Integer num2 = 47875;
         Summa sum = new Summa();
         System.out.println("Сумма int+int: " + sum.sum(2, 7));
         System.out.println("Сумма int+int+int: " + sum.sum(3, 4, 5));
         System.out.println("Сумма double+double: " + sum.sum(4.4, 3.5));
         System.out.println("Сумма double+double+double: " + sum.sum(4.4, 3.5, 5.3));
         System.out.println("Сумма int+double+double: " + sum.sum(4, 3.5, 5.3));
-        System.out.println("Сумма sumDoubleInts: " + sum.sumDoubleInts(3, 2));
-        System.out.println("Сумма Integer+Integer: " + sum.sumInteger(4478, 6546));
+        System.out.println("Сумма sumDoubleInts: " + sum.sum(3, 2));
+        System.out.println("Сумма Integer+Integer: " + sum.sum(num1, num2));
     }
 }

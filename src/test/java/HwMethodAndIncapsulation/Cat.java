@@ -31,6 +31,45 @@ public class Cat {
         this.woolColor = woolColor;
     }
 
+    Cat(double weight, int age, String eyeColor, String woolColor) {
+        this.age = age;
+        this.weight = age;
+        this.eyeColor = eyeColor;
+        this.woolColor = woolColor;
+    }
+
+   /* конструктор ниже с точки зрения Джавы одинаковый с конструктором выше т.к
+   на вход идёт два String и он не знает к какому String даётся это значение
+   */
+
+    //   Cat(double weight, int age, String woolColor, String eyeColor){
+    //       this.age = age;
+    //       this.weight = age;
+    //       this.eyeColor = eyeColor;
+    //       this.woolColor = woolColor;
+    //   }
+
+    Cat(String eyeColor, double weight, int age, String woolColor) {
+        this.age = age;
+        this.weight = age;
+        this.eyeColor = eyeColor;
+        this.woolColor = woolColor;
+    }
+
+    //  Cat(String woolColor, double weight, int age, String eyeColor){
+    //      this.age = age;
+    //      this.weight = age;
+    //      this.eyeColor = eyeColor;
+    //      this.woolColor = woolColor;
+    //  }
+
+    Cat(double weight, String eyeColor, String woolColor, int age) {
+        this.age = age;
+        this.weight = age;
+        this.eyeColor = eyeColor;
+        this.woolColor = woolColor;
+    }
+
     Cat(String eyeColor, String woolColor) {
         this.eyeColor = eyeColor;
         this.woolColor = woolColor;
@@ -61,7 +100,7 @@ public class Cat {
     }
 
     public static void main(String[] args) {
-        Cat cat1 = new Cat(4, 2, "blue", "3color");
+        Cat cat1 = new Cat(4.3, 2, "blue", "3color");
         Cat cat2 = new Cat(7, "green", "white");
         Cat cat3 = new Cat(4, "mramor");
         Cat cat4 = new Cat("gray", 7);

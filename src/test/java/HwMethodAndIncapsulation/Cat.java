@@ -42,12 +42,12 @@ public class Cat {
    на вход идёт два String и он не знает к какому String даётся это значение
    */
 
-    //   Cat(double weight, int age, String woolColor, String eyeColor){
-    //       this.age = age;
-    //       this.weight = age;
-    //       this.eyeColor = eyeColor;
-    //       this.woolColor = woolColor;
-    //   }
+   //   Cat(double weight, int age, String woolColor, String eyeColor){
+   //       this.age = age;
+   //       this.weight = age;
+   //       this.eyeColor = eyeColor;
+   //       this.woolColor = woolColor;
+   //   }
 
     Cat(String eyeColor, double weight, int age, String woolColor) {
         this.age = age;

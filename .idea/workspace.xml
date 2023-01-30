@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3">
+  <component name="RunManager" selected="Application.Task5">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testG.Calculator" />
       <module name="inOfficeProject" />
@@ -154,6 +152,20 @@
       <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task4" />
       <module name="inOfficeProject" />
       <option name="PROGRAM_PARAMETERS" value="3 4 5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task5" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task5" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="10 10 10 11" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_38.*" />
@@ -476,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675079454999</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="+task4">
+      <created>1675079977227</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1675079977227</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

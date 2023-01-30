@@ -8,7 +8,7 @@
  */
 package Lesson2_38;
 
-public class example1 {
+public class Task1 {
     public static void main(String[] args) {
         int a = Integer.parseInt(args[0]);
 

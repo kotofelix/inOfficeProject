@@ -7,7 +7,7 @@
  */
 package Lesson2_38;
 
-public class example2 {
+public class Task2 {
     public static void main(String[] args) {
         int day = Integer.parseInt(args[0]);
 

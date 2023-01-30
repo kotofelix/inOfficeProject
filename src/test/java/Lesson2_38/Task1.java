@@ -14,11 +14,11 @@ public class Task1 {
         int b = Integer.parseInt(args[1]);
         int c = Integer.parseInt(args[2]);
         if (a > b & a > c) {
-            System.out.println("max num is: " + a);
+            System.out.println(a);
         } else if (b > a & b > c) {
-            System.out.println("max num is: " + b);
+            System.out.println(b);
         } else {
-            System.out.println("max num is: " + c);
+            System.out.println(c);
         }
     }
 }

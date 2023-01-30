@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task4">
+  <component name="RunManager" selected="Application.Task3">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testG.Calculator" />
       <module name="inOfficeProject" />
@@ -139,7 +139,7 @@
     <configuration name="Task3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task3" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="1997" />
+      <option name="PROGRAM_PARAMETERS" value="1996" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_38.*" />
@@ -469,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675068215589</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="+task4">
+      <created>1675079454999</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1675079454999</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -485,7 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="добавлен метод принт,&#10;добавлена переменная radius" />
     <MESSAGE value="add DaysOfWeekEnum" />
     <MESSAGE value="add DaysOfWeekEnum&#10;изменено на Enum" />
     <MESSAGE value="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте" />
@@ -510,7 +516,8 @@
     <MESSAGE value="+example1" />
     <MESSAGE value="+example2" />
     <MESSAGE value="+task3" />
-    <option name="LAST_COMMIT_MESSAGE" value="+task3" />
+    <MESSAGE value="+task4" />
+    <option name="LAST_COMMIT_MESSAGE" value="+task4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -27,14 +27,14 @@ public class Task4 {
 
         if (a + b > c && a + c > b && b + c > a) {
             if (c * c == (a * a) + (b * b)) {
-                System.out.println("треугольник прямоугольный right");
+                System.out.println("right");
             } else if (c * c < a * a + b * b) {
-                System.out.println("треугольник остроугольный acute");
+                System.out.println("acute");
             } else if (c * c > a * a + b * b) {
-                System.out.println("треугольник тупоугольный obtuse");
+                System.out.println("obtuse");
             }
         } else {
-            System.out.println("Треуголник не существует");
+            System.out.println("impossible");
         }
     }
 }

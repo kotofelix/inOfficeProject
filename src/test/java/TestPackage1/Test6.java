@@ -8,7 +8,7 @@ public class Test6 {
 
         int x = -1;
         String result = "";
-        if (x > 0) if (x == 1) result += "1"; else result += "2";
+        if (x < 0) {if (x == -1) result += "1"; else result += "2";}
         result += "3";
         switch(x) {
             case 1-3:

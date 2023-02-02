@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="" />
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_38/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson/cycles/Check5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson/cycles/Check5.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +69,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Check5">
+  <component name="RunManager" selected="Application.Task5">
     <configuration name="Check1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson.cycles.Check1" />
       <module name="inOfficeProject" />
@@ -116,23 +122,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson.cycles.parameter.ForCycle" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson.cycles.parameter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task1" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="12 13 14" />
+      <option name="PROGRAM_PARAMETERS" value="1 3 4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_38.*" />
@@ -188,7 +181,7 @@
     <configuration name="Task5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task5" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="10 10 10 11" />
+      <option name="PROGRAM_PARAMETERS" value="1 2 2 1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_38.*" />
@@ -199,13 +192,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test6" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test6" />
         <item itemvalue="Application.Check5" />
         <item itemvalue="Application.Check4" />
         <item itemvalue="Application.Check2" />
         <item itemvalue="Application.Check1" />
-        <item itemvalue="Application.ForCycle" />
       </list>
     </recent_temporary>
   </component>
@@ -512,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675166736683</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="+doWhile">
+      <created>1675167081559</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1675167081559</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,22 +568,10 @@
     <MESSAGE value="+doWhile" />
     <option name="LAST_COMMIT_MESSAGE" value="+doWhile" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/lesson/cycles/Check2.java</url>
-          <line>3</line>
-          <properties class="lesson.cycles.Check2" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lesson2_38.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestPackage1.*</FILTER>
     </SUITE>

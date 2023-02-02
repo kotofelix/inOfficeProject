@@ -18,14 +18,16 @@ package Lesson2_38;
 
 public class Task5 {
     public static void main(String[] args) {
-        int a = Integer.parseInt(args[0]);
-        int b = Integer.parseInt(args[1]);
-        int c = Integer.parseInt(args[2]);
-        int d = Integer.parseInt(args[3]);
+        int a = Integer.parseInt(args[0]); // рубли (товар)
+        int b = Integer.parseInt(args[1]); // копейки (товар)
+        int c = Integer.parseInt(args[2]); // рубли (наличка)
+        int d = Integer.parseInt(args[3]); // копейки (наличка)
 
         if (a >= 0 && b >= 0 && c >= 0 && d >= 0) {
             if (c > a || c == a && d >= b) {
-                System.out.println("Сдача составит: " + (c - a) + " руб " + (d - b) + " копеек");
+                int z = (a * 100) + b; //стоимость товара переведена в копейки
+                int y = (c * 100) + d; // наличка переведена в копейки
+                System.out.println("Сдача составит: " + ((y - z) / 100) + " руб " + ((y - z) % 100) + " копеек");
             } else {
                 System.out.println("Недостаточно средств");
             }

@@ -22,14 +22,25 @@ col - количество цифр в одной строке
 package Lesson2_42;
 
 public class Task3 {
-    public static void main(String[] args) {
-
-        for (int i = 1; i < 10; i++) {
-            for (int j = 1; j < 5; j++) {
-                System.out.printf("%d\t", i * j);
+    public static void snakePrint(int n, int col) {
+        if (n >= 1 && col > 0) {
+            int count = 0;
+            for (int i = 1; i <= n; i++) {
+                System.out.print(i + " ");
+                count++;
+                if (count == col) {
+                    System.out.println();
+                    count = 0;
+                }
             }
-            System.out.println();
-
+        } else {
+            System.out.println("Error");
         }
+    }
+
+    public static void main(String[] args) {
+        int n = Integer.parseInt(args[0]); //максимальное число
+        int col = Integer.parseInt(args[1]); //количество цифр в одной строке
+        snakePrint(n, col);
     }
 }

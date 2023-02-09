@@ -24,7 +24,7 @@ public class Task2 {
 
         int timeMinute = m * 60; //время работы в минутах
         int fullTime = 0;
-        if (n > 0 & m > 0) {
+        if (n > 0 && m > 0) {
             for (int i = 0; i < n; i++) {
                 int operationTime = timeMinute + 10 * i;
                 fullTime += operationTime;

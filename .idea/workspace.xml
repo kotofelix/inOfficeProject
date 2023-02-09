@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson2_42.Task2">
+  <component name="RunManager" selected="Application.Lesson2_42.Task3">
     <configuration name="Check4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson.cycles.Check4" />
       <module name="inOfficeProject" />
@@ -116,7 +113,7 @@
     <configuration name="Lesson2_42.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="2 1" />
+      <option name="PROGRAM_PARAMETERS" value="2 0" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_42.*" />
@@ -130,6 +127,7 @@
     <configuration name="Lesson2_42.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3" />
       <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="0 5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_42.*" />
@@ -225,8 +223,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson2_42.Task1" />
         <item itemvalue="Application.Lesson2_42.Task3" />
+        <item itemvalue="Application.Lesson2_42.Task1" />
         <item itemvalue="Application.Test6" />
         <item itemvalue="Application.Check5" />
         <item itemvalue="Application.Check4" />
@@ -550,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675328838092</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="lesson 2.42 +task1, +task2">
+      <created>1675934414107</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1675934414107</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -566,7 +571,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="отредактировал оба задания согласно рекомендуемых правок" />
     <MESSAGE value="+Add Chelovek2" />
     <MESSAGE value="поменял названия пакетов" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal" />
@@ -591,7 +595,8 @@
     <MESSAGE value="+task5" />
     <MESSAGE value="+doWhile" />
     <MESSAGE value="исправления по задачам 1, 5 + добавил коммент по 4 задаче" />
-    <option name="LAST_COMMIT_MESSAGE" value="исправления по задачам 1, 5 + добавил коммент по 4 задаче" />
+    <MESSAGE value="lesson 2.42 +task1, +task2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 2.42 +task1, +task2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

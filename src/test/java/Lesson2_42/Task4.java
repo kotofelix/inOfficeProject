@@ -35,14 +35,21 @@ public class Task4 {
     }
 
     public static int nextInt(int x) {
+
         return ThreadLocalRandom.current().nextInt(x);
     }
 
     public static void main(String[] args) {
-
-
-        System.out.println(isPrime(2));
+        int n;
+        while (true) {
+            n = nextInt(9);
+            if (isPrime(n)) {
+                break;
+            }
+        }
+        System.out.println("Сгенерированное число " + n);
+        }
 
     }
 
-}
+

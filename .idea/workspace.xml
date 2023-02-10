@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+3 задание">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+4 наработкт">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task4.java" afterDir="false" />
     </list>
@@ -522,7 +522,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675167081559</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="+4 наработкт">
+      <created>1675952920445</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675952920445</updated>
+    </task>
+    <task id="LOCAL-00045" summary="+4 наработкт">
+      <created>1675952932614</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1675952932614</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -538,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте" />
     <MESSAGE value="отредактировал оба задания согласно рекомендуемых правок" />
     <MESSAGE value="+Add Chelovek2" />
     <MESSAGE value="поменял названия пакетов" />
@@ -563,7 +576,8 @@
     <MESSAGE value="+task4" />
     <MESSAGE value="+task5" />
     <MESSAGE value="+doWhile" />
-    <option name="LAST_COMMIT_MESSAGE" value="+doWhile" />
+    <MESSAGE value="+4 наработкт" />
+    <option name="LAST_COMMIT_MESSAGE" value="+4 наработкт" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

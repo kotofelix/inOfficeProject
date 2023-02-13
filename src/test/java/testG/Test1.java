@@ -1,27 +1,29 @@
 package testG;
 
 public class Test1 {
+
     public static void snakePrint(int n, int col) {
-        int count = 0;
-        boolean reverse = false;
-        for (int i = 1; i <= n; i++) {
-            System.out.print(i + " ");
-            count++;
-            if (count == col) {
-                System.out.println();
-                count = 0;
-                reverse = !reverse;
-            }
-            if (reverse && count == 0) {
-                for (int j = i; j > i - col; j--) {
-                    System.out.print(j + " ");
+        int curr = 1;
+        boolean isForward = true;
+        for (int i = 0; i < (n + col - 1) / col; i++) {
+            if (isForward) {
+                for (int j = 0; j < col && curr <= n; j++) {
+                    System.out.print(curr + " ");
+                    curr++;
                 }
-                System.out.println();
+                isForward = false;
+            } else {
+                for (int j = col - 1; j >= 0 && curr <= n; j--) {
+                    System.out.print(curr + " ");
+                    curr++;
+                }
+                isForward = true;
             }
+            System.out.println();
         }
     }
 
-    public static void main(String[] args) {
-        snakePrint(99, 5);
+        public static void main(String[] args) {
+            snakePrint(20, 4);
     }
 }

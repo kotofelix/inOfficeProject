@@ -32,19 +32,14 @@ public class Task3 {
                 if (count == col) {
                     System.out.println();
                     count = 0;
-                    reverse = !reverse;
-                }
-                if (reverse && count == 0) {
-                    for (int j = i; j > i - col; j--) {
-                        System.out.print(j + " ");
-                    }
-                    System.out.println();
                 }
             }
+
         } else {
             System.out.println("Error");
         }
     }
+
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]); //максимальное число
         int col = Integer.parseInt(args[1]); //количество цифр в одной строке

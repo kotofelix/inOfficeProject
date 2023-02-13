@@ -21,21 +21,17 @@ public class Task4 {
         if (number < 2) {
             return false;
         }
-
         int divider = 2;
-
         while (divider <= number / 2) {
             if (number % divider == 0) {
                 return false;
             }
             divider++;
         }
-
         return true;
     }
 
     public static int nextInt(int x) {
-
         return ThreadLocalRandom.current().nextInt(x);
     }
 
@@ -48,8 +44,7 @@ public class Task4 {
             }
         }
         System.out.println("Сгенерированное число " + n);
-        }
-
     }
+}
 
 

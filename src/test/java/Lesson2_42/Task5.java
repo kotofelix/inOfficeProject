@@ -28,20 +28,34 @@ package Lesson2_42;
 
 public class Task5 {
 
-    static int add(int x, int y){
-        return x + y;
-    }
-    static int sub(int x, int y){
-        return x - y;
-    }
-    static int mult(int x, int y){
-        return x * y;
-    }
-    static int divide(int x, int y){
-        return x / y;
-    }
+    static int add(int x, int y) {  return x + y;    }
 
-    public static void main(String[] args) {
+    static int sub(int x, int y) {        return x - y;    }
 
+    static int mult(int x, int y) {        return x * y;    }
+
+    static int divide(int x, int y) {        return x / y;    }
+
+    public static void calculator(int x, int y, String sym) {
+        if (y != 0) {
+            if (sym.equals("+")) {
+                System.out.println(add(x, y));
+            } else if (sym.equals("-")) {
+                System.out.println(sub(x, y));
+            } else if (sym.equals("*")) {
+                System.out.println(mult(x, y));
+            } else if (sym.equals("/")) {
+                System.out.println(divide(x, y));
+            }
+        } else {
+            System.out.println("error");
+            System.exit(0);
+        }
+    }
+        public static void main(String[] args) {
+        int x = 4;
+        int y = 0;
+        String deistvie = "/";
+           calculator(x, y, deistvie);
     }
 }

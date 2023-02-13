@@ -2,7 +2,7 @@ package JavaRushTestFreeTask;
 
 public class Solution {
     public static void main(String[] args) {
-        var name = "asdas";
+   //     var name = "asdas";
         int a = 3;
         int b = 2;
 

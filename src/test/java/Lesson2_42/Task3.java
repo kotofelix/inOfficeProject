@@ -25,19 +25,26 @@ public class Task3 {
     public static void snakePrint(int n, int col) {
         if (n >= 1 && col > 0) {
             int count = 0;
+            boolean reverse = false;
             for (int i = 1; i <= n; i++) {
                 System.out.print(i + " ");
                 count++;
                 if (count == col) {
                     System.out.println();
                     count = 0;
+                    reverse = !reverse;
+                }
+                if (reverse && count == 0) {
+                    for (int j = i; j > i - col; j--) {
+                        System.out.print(j + " ");
+                    }
+                    System.out.println();
                 }
             }
         } else {
             System.out.println("Error");
         }
     }
-
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]); //максимальное число
         int col = Integer.parseInt(args[1]); //количество цифр в одной строке

@@ -4,6 +4,7 @@ public class Timer {
     static int seconds;
 
     public Timer(int seconds) {
+
         this.seconds = seconds;
     }
 
@@ -15,23 +16,19 @@ public class Timer {
     }
 
     public void printTime() {
-        //      int secondZ = seconds;
-   //     int remainingSeconds = this.seconds % 60;
-  //      int remainingMinutes = this.seconds / 60;
- //       System.out.println(seconds / 60 + ":" + seconds % 60);
- //       System.out.printf("%02d:%02d\n", remainingMinutes, remainingSeconds);
+        System.out.println(seconds / 60 + ":" + seconds % 60);
     }
 
     public void start() {
-        for (int i = seconds; i >= 0; i--) {
+        for (int i = seconds; i >= 0; i--, seconds--) {
             printTime();
             waitSecond();
-            System.out.println(i / 60 + ":" + i % 60);
         }
     }
 
     public static void main(String[] args) {
-        Timer t1 = new Timer(124);
-        t1.start();
+        Timer t2 = new Timer(112);
+        t2.start();
     }
 }
+

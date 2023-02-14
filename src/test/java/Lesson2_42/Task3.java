@@ -34,7 +34,6 @@ public class Task3 {
                     count = 0;
                 }
             }
-
         } else {
             System.out.println("Error");
         }

@@ -21,7 +21,6 @@ public class Task2 {
     public static void main(String[] args) {
         int n = Integer.parseInt(args[0]); //количество сенокосилок
         int m = Integer.parseInt(args[1]); //время работы в часах первой сенокосилки
-
         int timeMinute = m * 60; //время работы в минутах
         int fullTime = 0;
         if (n > 0 && m > 0) {

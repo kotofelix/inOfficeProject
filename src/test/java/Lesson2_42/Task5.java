@@ -30,18 +30,21 @@ public class Task5 {
     static int add(int x, int y) {
         return x + y;
     }
+
     static int sub(int x, int y) {
         return x - y;
     }
+
     static int mult(int x, int y) {
         return x * y;
     }
+
     static int divide(int x, int y) {
         return x / y;
     }
 
     public static void calculator(int x, int y, String action) {
-        switch (action){
+        switch (action) {
             case "+":
             case "-":
             case "*":

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Timer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Timer2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,25 +70,11 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson2_42.Task5">
+  <component name="RunManager" selected="Application.Timer2">
     <configuration name="Lesson2_42.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
       <option name="PROGRAM_PARAMETERS" value="2 0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson2_42.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3" />
-      <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="25 5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_42.*" />
@@ -180,6 +169,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task6" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="testG.Test1" />
       <module name="inOfficeProject" />
@@ -193,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testG.Test2" />
+    <configuration name="Timer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Timer" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testG.*" />
+          <option name="PATTERN" value="Lesson2_42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2Pavlin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="testG.Test2Pavlin" />
+    <configuration name="Timer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Timer2" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testG.*" />
+          <option name="PATTERN" value="Lesson2_42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Timer2" />
+        <item itemvalue="Application.Timer" />
+        <item itemvalue="Application.Task6" />
         <item itemvalue="Application.Lesson2_42.Task5" />
         <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.Lesson2_42.Task3" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test2Pavlin" />
       </list>
     </recent_temporary>
   </component>
@@ -567,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676289429422</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update 2.42.5">
+      <created>1676353597309</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1676353597309</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -583,7 +592,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="добавил заготовку по ДЗ с Animal" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
     <MESSAGE value="+Vet лечит" />
     <MESSAGE value="мелкие изменения" />
@@ -608,7 +616,8 @@
     <MESSAGE value="lesson 2.42 +task1, +task2" />
     <MESSAGE value="update 2.42.3" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="update 2.42.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2.42.5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

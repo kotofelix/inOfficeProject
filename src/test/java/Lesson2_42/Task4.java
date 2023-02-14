@@ -36,7 +36,7 @@ public class Task4 {
     }
 
     public static void main(String[] args) {
-        int n;
+        int n ;
         while (true) {
             n = nextInt(9);
             if (isPrime(n)) {

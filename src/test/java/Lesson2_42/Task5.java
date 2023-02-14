@@ -27,35 +27,50 @@
 package Lesson2_42;
 
 public class Task5 {
+    static int add(int x, int y) {
+        return x + y;
+    }
+    static int sub(int x, int y) {
+        return x - y;
+    }
+    static int mult(int x, int y) {
+        return x * y;
+    }
+    static int divide(int x, int y) {
+        return x / y;
+    }
 
-    static int add(int x, int y) {  return x + y;    }
-
-    static int sub(int x, int y) {        return x - y;    }
-
-    static int mult(int x, int y) {        return x * y;    }
-
-    static int divide(int x, int y) {        return x / y;    }
-
-    public static void calculator(int x, int y, String sym) {
-        if (y != 0) {
-            if (sym.equals("+")) {
-                System.out.println(add(x, y));
-            } else if (sym.equals("-")) {
-                System.out.println(sub(x, y));
-            } else if (sym.equals("*")) {
-                System.out.println(mult(x, y));
-            } else if (sym.equals("/")) {
-                System.out.println(divide(x, y));
-            }
-        } else {
+    public static void calculator(int x, int y, String action) {
+        switch (action){
+            case "+":
+            case "-":
+            case "*":
+            case "/":
+                break;
+            default:
+                System.out.println("Неподдерживаемый оператор");
+        }
+        if (y == 0 && action.equals("/")) {
             System.out.println("error");
             System.exit(0);
+        } else {
+            if (action.equals("+")) {
+                System.out.println("Результат сложения: " + add(x, y));
+            } else if (action.equals("-")) {
+                System.out.println("Результат вычитания: " + sub(x, y));
+            } else if (action.equals("*")) {
+                System.out.println("Результат умножения: " + mult(x, y));
+            } else if (action.equals("/")) {
+                System.out.println("Результат деления: " + divide(x, y));
+            }
         }
     }
-        public static void main(String[] args) {
-        int x = 4;
-        int y = 0;
-        String deistvie = "/";
-           calculator(x, y, deistvie);
+
+    public static void main(String[] args) {
+        int x = Integer.parseInt(args[0]);
+        int y = Integer.parseInt(args[2]);
+        String znak = args[1];
+
+        calculator(x, y, znak);
     }
 }

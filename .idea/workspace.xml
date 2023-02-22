@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+ 2.48 1,2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_3_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task_2">
+  <component name="RunManager" selected="Application.Task_3_1">
     <configuration name="Arifmetics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArifmeticsIntBigIntDouble.Arifmetics" />
       <module name="inOfficeProject" />
@@ -80,20 +80,6 @@
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
       <option name="PROGRAM_PARAMETERS" value="2 0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson2_42.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3" />
-      <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="25 5" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_42.*" />
@@ -202,6 +188,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_3" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_3" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="01a10vt0101c" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_48.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_3_1" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_48.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestPackage1.Test7" />
       <module name="inOfficeProject" />
@@ -217,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_3_1" />
         <item itemvalue="Application.Task_2" />
         <item itemvalue="Application.Task_1" />
         <item itemvalue="Application.Test7" />
         <item itemvalue="Application.Arifmetics" />
-        <item itemvalue="Application.Lesson2_42.Task3" />
       </list>
     </recent_temporary>
   </component>
@@ -556,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676273365449</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="+ 2.48 1,2">
+      <created>1676928008972</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1676928008972</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

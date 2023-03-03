@@ -23,6 +23,5 @@ public class Task_1 {
         System.out.println(str.replaceAll("\\s", "").indexOf(s1));
         System.out.println(str.replaceAll("\\s", "").indexOf(s2));
         System.out.println(str.replaceAll("\\s", "").indexOf(s3));
-
     }
 }

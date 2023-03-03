@@ -5,17 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_52/LongestWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_52/LongestWords2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/packTest32/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/ArraysClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/ArraysVarargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/Arrays_t_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/Arrays_t_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/Arrays_t_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/Arrays_t_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/Arrays_t_6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_3_1.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,24 +55,89 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lesson2_42" />
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task3_3">
+  <component name="RunManager" selected="Application.Task_3">
+    <configuration name="Arrays_t_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Arrays_t_1" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_t_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Arrays_t_2" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_t_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Arrays_t_3" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_t_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Arrays_t_4" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Arrays_t_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.Arrays_t_6" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lesson2_42.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
@@ -88,20 +156,6 @@
       <option name="MAIN_CLASS_NAME" value="Lesson2_52.LongestWord" />
       <module name="inOfficeProject" />
       <option name="PROGRAM_PARAMETERS" value="odinakovodlinnoe korotkoe odinakovodlinnoi korotko" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_52.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_52.LongestWords" />
-      <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="odinakovodlinnoe sdadsa dfasf sadasd odinakovodlinnoi odinakovodlinnoz" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_52.*" />
@@ -168,32 +222,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_1" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task4" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task4" />
       <module name="inOfficeProject" />
@@ -222,12 +250,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_4" />
+    <configuration name="Task_1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_1" />
       <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="Ц а ." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2_48.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,9 +264,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_4_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_4_1" />
+    <configuration name="Task_2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_2" />
       <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="/" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_3" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_3" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="01a10vt0101c" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_48.*" />
@@ -250,11 +294,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3_3" />
-        <item itemvalue="Application.Task3_3_1" />
-        <item itemvalue="Application.LongestWords" />
-        <item itemvalue="Application.Task_4" />
-        <item itemvalue="Application.Task_4_1" />
+        <item itemvalue="Application.Arrays_t_4" />
+        <item itemvalue="Application.Arrays_t_6" />
+        <item itemvalue="Application.Arrays_t_3" />
+        <item itemvalue="Application.Arrays_t_2" />
+        <item itemvalue="Application.Arrays_t_1" />
       </list>
     </recent_temporary>
   </component>
@@ -589,7 +633,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676273365449</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update">
+      <created>1677763686413</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677763686413</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +656,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="поменял названия пакетов" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
     <MESSAGE value="+Vet лечит" />
@@ -630,7 +680,19 @@
     <MESSAGE value="исправления по задачам 1, 5 + добавил коммент по 4 задаче" />
     <MESSAGE value="lesson 2.42 +task1, +task2" />
     <MESSAGE value="update 2.42.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2.42.3" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/arrays/Arrays_t_6.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

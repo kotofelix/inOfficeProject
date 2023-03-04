@@ -1,6 +1,6 @@
-package Lesson2_48;
+package Exp;
 
-public class Task_6_1 {
+public class Task_2_48_6 {
     public static int toInt(String str) throws NumberFormatException {
         if (str == null || str.isEmpty()) {
             throw new NumberFormatException("Input string is null or empty");

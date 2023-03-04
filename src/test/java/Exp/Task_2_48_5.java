@@ -14,22 +14,33 @@
 Входная строка: "1,234E567890"
 Вывод: Строка не является целым числом
  */
-package Lesson2_48;
+package Exp;
 
-public class Task_5 {
+public class Task_2_48_5  {
 
     public static boolean isInteger(String str) {
-        for (int i = 0; i < str.length(); i++) {
-            if (!Character.isDigit(str.charAt(i))) {
+        // If the string is empty, it's not an integer
+        if (str == null || str.length() == 0) {
+            return false;
+        }
+
+        // Check each character in the string
+        for (char c : str.toCharArray()) {
+            // If the character is not a digit, it's not an integer
+            if (!Character.isDigit(c)) {
                 return false;
             }
         }
+
+        // If all characters are digits, it's an integer
         return true;
     }
-
     public static void main(String[] args) {
-        boolean isInt = isInteger(args[0]);
-        System.out.printf("%s %s\n", "Строка" + "", isInt ? "является целым числом" : "не является целым числом");
-    }
-}
 
+        //     System.out.println(isInteger("213123131"));
+        String str = "213123131.5";
+        boolean isInt = isInteger(str);
+        System.out.println("The string \"" + str + "\" is an integer: " + isInt);
+    }
+
+}

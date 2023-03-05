@@ -5,18 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+2_48">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_5_Top_Massive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_6_Top_massive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,21 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task_2">
+  <component name="RunManager" selected="Application.Task3_3_3_3">
+    <configuration name="Calculator" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Calculator" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="10 v 0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lesson2_42.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
@@ -142,8 +157,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_3_3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_4" />
+    <configuration name="Task3_3_3_5_Top_Massive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_5_Top_Massive" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
@@ -155,21 +170,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task3_3_3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_5" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_3_3_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_6" />
+    <configuration name="Task3_3_3_6_Top_massive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_6_Top_massive" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
@@ -183,6 +185,19 @@
     </configuration>
     <configuration name="Task3_3_3_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_7" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3_3_3_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_8" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
@@ -308,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task3_3_3_7" />
-        <item itemvalue="Application.Task3_3_3_6" />
-        <item itemvalue="Application.Task3_3_3_5" />
         <item itemvalue="Application.Task3_3_3_3" />
-        <item itemvalue="Application.Task3_3_3_4" />
+        <item itemvalue="Application.Task3_3_3_5_Top_Massive" />
+        <item itemvalue="Application.Task3_3_3_8" />
+        <item itemvalue="Application.Task3_3_3_6_Top_massive" />
+        <item itemvalue="Application.Task3_3_3_7" />
       </list>
     </recent_temporary>
   </component>
@@ -661,7 +676,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677937298457</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="+2_48">
+      <created>1678018868373</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1678018868373</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

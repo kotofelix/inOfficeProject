@@ -1,11 +1,8 @@
-/*
-снова с массивом и всё ок
- */
 package Lesson2_42;
 
 import java.util.ArrayList;
 
-public class Task3_3_3_5 {
+public class Task3_3_3_6_Top_massive {
     public static void printRows(int n, int col) {
         int rows = n / col;
         int remainder = n % col;
@@ -15,12 +12,20 @@ public class Task3_3_3_5 {
             if (r % 2 == 1) {
                 // печать нечетной строки слева направо
                 for (int i = (r - 1) * col + 1; i <= r * col; i++) {
-                    System.out.print(i + " ");
+                    if (i == n && remainder != 0) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print(i + " ");
+                    }
                 }
             } else {
                 // печать четной строки справа налево
                 for (int i = r * col; i >= (r - 1) * col + 1; i--) {
-                    System.out.print(i + " ");
+                    if (i == n && remainder != 0) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print(i + " ");
+                    }
                 }
             }
             System.out.println();
@@ -47,7 +52,7 @@ public class Task3_3_3_5 {
                     }
                 }
             } else {
-                // печать четного последнего ряда слева направо
+                // печать четного последнего ряда справа налево
                 for (int i = lastRow.size() - 1; i >= 0; i--) {
                     if (lastRow.get(i) == -1) {
                         System.out.print("* ");
@@ -59,8 +64,7 @@ public class Task3_3_3_5 {
             System.out.println();
         }
     }
-
     public static void main(String[] args) {
-printRows(27,5);
+        printRows(27, 5);
     }
 }

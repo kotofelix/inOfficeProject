@@ -24,56 +24,58 @@
 Если введена неподдерживаемая операция,
 то выводить список поддерживаемых операций и завершать программу.
  */
+
 package Lesson2_42;
 
-public class Task5 {
-    static int add(int x, int y) {
+public class Calculator {
+
+         static int add(int x, int y) {
         return x + y;
     }
 
-    static int sub(int x, int y) {
+         static int sub(int x, int y) {
         return x - y;
     }
 
-    static int mult(int x, int y) {
+         static int mult(int x, int y) {
         return x * y;
     }
 
-    static int divide(int x, int y) {
+         static int divide(int x, int y){
+        if (y == 0) {
+            System.out.println("Ошибка: деление на 0.");
+            System.exit(0);
+        }
         return x / y;
     }
 
-    public static void calculator(int x, int y, String action) {
-        switch (action) {
-            case "+":
-            case "-":
-            case "*":
-            case "/":
-                break;
-            default:
-                System.out.println("Неподдерживаемый оператор");
-        }
-        if (y == 0 && action.equals("/")) {
-            System.out.println("error");
-            System.exit(0);
-        } else {
-            if (action.equals("+")) {
-                System.out.println("Результат сложения: " + add(x, y));
-            } else if (action.equals("-")) {
-                System.out.println("Результат вычитания: " + sub(x, y));
-            } else if (action.equals("*")) {
-                System.out.println("Результат умножения: " + mult(x, y));
-            } else if (action.equals("/")) {
-                System.out.println("Результат деления: " + divide(x, y));
-            }
-        }
-    }
 
     public static void main(String[] args) {
+
         int x = Integer.parseInt(args[0]);
         int y = Integer.parseInt(args[2]);
-        String znak = args[1];
+        String action = args[1];
 
-        calculator(x, y, znak);
+        int result = 0;
+        switch (action) {
+            case "+":
+                result = Calculator.add(x, y);
+                break;
+            case "-":
+                result = Calculator.sub(x, y);
+                break;
+            case "*":
+                result = Calculator.mult(x, y);
+                break;
+            case "/":
+                result = Calculator.divide(x, y);
+                break;
+            default:
+                System.out.println("Ошибка: Неподдерживаемый оператор.");
+                System.out.println("Поддерживаемые операторы: +, -, *, /.");
+                System.exit(0);
+        }
+        System.out.println("Результат: " + result);
+
     }
 }

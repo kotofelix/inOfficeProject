@@ -10,18 +10,16 @@
  * Через аргументы передается "Ц", Вывод: 0.
  * Через аргументы передается "а", Вывод: 7.
  * Через аргументы передается ".", Вывод: 57.
- */
+  */
+
 package Lesson2_48;
 
 public class Task_1 {
     static String str = "Циклом называется многократное выполнение одних и тех же действий.";
 
     public static void main(String[] args) {
-        String s1 = args[0];
-        String s2 = args[1];
-        String s3 = args[2];
-        System.out.println(str.replaceAll("\\s", "").indexOf(s1));
-        System.out.println(str.replaceAll("\\s", "").indexOf(s2));
-        System.out.println(str.replaceAll("\\s", "").indexOf(s3));
+        String s1 = str.substring(0, str.indexOf(args[0]));
+        int count = s1.replaceAll("\\s+|\\.", "").length();
+        System.out.println(count);
     }
 }

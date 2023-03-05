@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+2_48">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_4_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_6_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_48/Task_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +66,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Lesson2_42" />
       <recent name="Exp" />
       <recent name="Lesson2_48" />
-      <recent name="Lesson2_42" />
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task_5">
+  <component name="RunManager" selected="Application.Task_2">
     <configuration name="Lesson2_42.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
@@ -126,6 +129,71 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task3_3_3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_3" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3_3_3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_4" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3_3_3_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_5" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3_3_3_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_6" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3_3_3_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3_3_3_7" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task4" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task4" />
       <module name="inOfficeProject" />
@@ -154,13 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_2" />
+    <configuration name="Task_1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_1" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Program Files\Java\bin\java&quot;" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;.&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.*" />
+          <option name="PATTERN" value="Lesson2_48.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +236,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2_48_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exp.Task_2_48_4" />
+    <configuration name="Task_1_1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_1_1" />
       <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="&quot; &quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.*" />
+          <option name="PATTERN" value="Lesson2_48.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_2" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;C:\Program Files\Java\bin\java&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_48.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_2_2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_2_2" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="C:\bin\\" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_48.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,47 +282,6 @@
       <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_3" />
       <module name="inOfficeProject" />
       <option name="PROGRAM_PARAMETERS" value="01a10vt0101c" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_3_1" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_4" />
-      <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="01a10vt0101c" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_48.Task_5" />
-      <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="1234567890.0" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exp.*" />
@@ -252,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task_5" />
-        <item itemvalue="Application.Task_4" />
-        <item itemvalue="Application.Task_2_48_4" />
-        <item itemvalue="Application.Task_3_1" />
-        <item itemvalue="Application.Task_2" />
+        <item itemvalue="Application.Task3_3_3_7" />
+        <item itemvalue="Application.Task3_3_3_6" />
+        <item itemvalue="Application.Task3_3_3_5" />
+        <item itemvalue="Application.Task3_3_3_3" />
+        <item itemvalue="Application.Task3_3_3_4" />
       </list>
     </recent_temporary>
   </component>
@@ -598,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676928008972</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="+2_48">
+      <created>1677937298457</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677937298457</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -614,7 +677,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="добавил заготовку по ДЗ с Animal" />
     <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
     <MESSAGE value="+Vet лечит" />
     <MESSAGE value="мелкие изменения" />
@@ -639,9 +701,13 @@
     <MESSAGE value="lesson 2.42 +task1, +task2" />
     <MESSAGE value="update 2.42.3" />
     <MESSAGE value="+ 2.48 1,2" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ 2.48 1,2" />
+    <MESSAGE value="+2_48" />
+    <option name="LAST_COMMIT_MESSAGE" value="+2_48" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inOfficeProject$Task_2_2.ic" NAME="Task_2_2 Coverage Results" MODIFIED="1678017055058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lesson2_48.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Lesson2_38.*</FILTER>
     </SUITE>

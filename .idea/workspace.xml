@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3_8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_52/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_52/Task2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_5_Top_Massive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task_2_42_3_2_Top_Massive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_6_Top_massive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task_2_42_3_1_Top_massive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3_3_3_8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_52/LongestWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/LongestWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_52/LongestWords2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson2_42.Task3">
+  <component name="RunManager" selected="Application.Lesson2_52.Task2">
     <configuration name="Lesson2_42.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
@@ -95,13 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestWord" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_52.LongestWord" />
+    <configuration name="Lesson2_52.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_52.Task1" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="odinakovodlinnoe korotkoe odinakovodlinnoi korotko" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2_52.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,13 +104,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestWords2" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_52.LongestWords2" />
+    <configuration name="Lesson2_52.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_52.Task2" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="asddsaf adsa asdsadsaasdsadsb asdsadsa asdas sa as asdsadsaasdsadsa" />
+      <option name="PROGRAM_PARAMETERS" value="sadfdsfsd asdsa das asd sadfdsfsd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson2_52.*" />
+          <option name="PATTERN" value="Exp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestWord" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_52.LongestWord" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="odinakovodlinnoe korotkoe odinakovodlinnoi korotko" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestWords" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exp.LongestWords" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,19 +202,6 @@
     </configuration>
     <configuration name="Task3_3_3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Exp.Task3_3_3_3" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_3_3_7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exp.Task3_3_3_7" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
@@ -289,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson2_52.Task1" />
         <item itemvalue="Application.Lesson2_42.Task3" />
         <item itemvalue="Application.Task3_3_3_8" />
         <item itemvalue="Application.Task3_3_3_3" />
         <item itemvalue="Application.Task3_3_3" />
-        <item itemvalue="Application.Task3_3_3_7" />
       </list>
     </recent_temporary>
   </component>
@@ -635,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677763686413</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="update">
+      <created>1678089671555</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1678089671555</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -695,6 +711,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestPackage1.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/inOfficeProject$LongestWords2.ic" NAME="LongestWords2 Coverage Results" MODIFIED="1678094653933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lesson2_52.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Check4.ic" NAME="Check4 Coverage Results" MODIFIED="1675165982070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lesson.cycles.*</FILTER>

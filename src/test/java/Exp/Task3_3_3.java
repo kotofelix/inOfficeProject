@@ -7,7 +7,7 @@
 26 27 * * *
 
  */
-package Lesson2_42;
+package Exp;
 
 public class Task3_3_3 {
     public static void printRows(int n, int col) {

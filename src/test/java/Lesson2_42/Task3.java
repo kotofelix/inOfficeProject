@@ -1,49 +1,70 @@
-/*
-Напишите метод snakePrint(int n, int col),
-который выводит числа "змейкой" от 1 до n:
-    1 2 3 4
-    8 7 6 5
-    9 10 11 12
-    ... n
-где:
-n - максимальное число
-col - количество цифр в одной строке
-Выводимые числа разделены пробелами.
-
-Используя реализованный метод, напишите программу, которая через
-аргументы командной строки получает целочисленные значения n и col,
-а затем печатает соответствующего размера змейку.
-
-Проверку на наличие аргументов делать не надо.
-Сделайте проверку, что n больше или равно 1, а m больше 0.
-В противном случае выведите сообщение об ошибке
-и завершите программу.
-
-не заворачивает
- */
 package Lesson2_42;
 
+import java.util.ArrayList;
+
 public class Task3 {
-    public static void snakePrint(int n, int col) {
-        if (n >= 1 && col > 0) {
-            int count = 0;
-            boolean reverse = false;
-            for (int i = 1; i <= n; i++) {
-                System.out.print(i + " ");
-                count++;
-                if (count == col) {
-                    System.out.println();
-                    count = 0;
+    public static void printRows(int n, int col) {
+        int rows = n / col;
+        int remainder = n % col;
+
+        // печать рядов с чередованием нечетных и четных строк
+        for (int r = 1; r <= rows; r++) {
+            if (r % 2 == 1) {
+                // печать нечетной строки слева направо
+                for (int i = (r - 1) * col + 1; i <= r * col; i++) {
+                    if (i == n && remainder != 0) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print(i + " ");
+                    }
+                }
+            } else {
+                // печать четной строки справа налево
+                for (int i = r * col; i >= (r - 1) * col + 1; i--) {
+                    if (i == n && remainder != 0) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print(i + " ");
+                    }
                 }
             }
-        } else {
-            System.out.println("Error");
+            System.out.println();
+        }
+
+        if (remainder != 0) {
+            // последний ряд заполняется не полностью
+            ArrayList<Integer> lastRow = new ArrayList<Integer>();
+            for (int i = rows * col + 1; i <= n; i++) {
+                lastRow.add(i);
+            }
+            int diff = col - remainder;
+            for (int i = 0; i < diff; i++) {
+                lastRow.add(-1);
+            }
+            // печать последнего ряда
+            if ((rows + 1) % 2 == 1) {
+                // печать нечетного последнего ряда слева направо
+                for (int i : lastRow) {
+                    if (i == -1) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print(i + " ");
+                    }
+                }
+            } else {
+                // печать четного последнего ряда справа налево
+                for (int i = lastRow.size() - 1; i >= 0; i--) {
+                    if (lastRow.get(i) == -1) {
+                        System.out.print("* ");
+                    } else {
+                        System.out.print(lastRow.get(i) + " ");
+                    }
+                }
+            }
+            System.out.println();
         }
     }
-
     public static void main(String[] args) {
-        int n = Integer.parseInt(args[0]); //максимальное число
-        int col = Integer.parseInt(args[1]); //количество цифр в одной строке
-        snakePrint(n, col);
+        printRows(27, 5);
     }
 }

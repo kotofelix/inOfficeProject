@@ -1,11 +1,15 @@
 /*
-снова с массивом и всё ок
+1 2 3 4 5
+10 9 8 7 6
+11 12 13 14 15
+20 19 18 17 16
+21 22 23 24 25
+26 27 * * *
+
  */
-package Lesson2_42;
+package Exp;
 
-import java.util.ArrayList;
-
-public class Task3_3_3_5_Top_Massive {
+public class Task3_3_3_3 {
     public static void printRows(int n, int col) {
         int rows = n / col;
         int remainder = n % col;
@@ -28,39 +32,20 @@ public class Task3_3_3_5_Top_Massive {
 
         if (remainder != 0) {
             // последний ряд заполняется не полностью
-            ArrayList<Integer> lastRow = new ArrayList<Integer>();
             for (int i = rows * col + 1; i <= n; i++) {
-                lastRow.add(i);
+                System.out.print(i + " ");
             }
             int diff = col - remainder;
             for (int i = 0; i < diff; i++) {
-                lastRow.add(-1);
-            }
-            // печать последнего ряда
-            if ((rows + 1) % 2 == 1) {
-                // печать нечетного последнего ряда слева направо
-                for (int i : lastRow) {
-                    if (i == -1) {
-                        System.out.print("* ");
-                    } else {
-                        System.out.print(i + " ");
-                    }
-                }
-            } else {
-                // печать четного последнего ряда слева направо
-                for (int i = lastRow.size() - 1; i >= 0; i--) {
-                    if (lastRow.get(i) == -1) {
-                        System.out.print("* ");
-                    } else {
-                        System.out.print(lastRow.get(i) + " ");
-                    }
-                }
+                System.out.print("* ");
             }
             System.out.println();
         }
     }
 
+
+
     public static void main(String[] args) {
-printRows(27,5);
+        printRows(27,5);
     }
 }

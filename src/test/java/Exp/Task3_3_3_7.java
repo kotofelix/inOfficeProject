@@ -1,4 +1,4 @@
-package Lesson2_42;
+package Exp;
 
 public class Task3_3_3_7 {
     public static void printRows(int n, int col) {

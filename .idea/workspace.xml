@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_52/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_52/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckCycleFor/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CheckCycleFor/T2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arrays/JaggedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,20 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson2_52.Task5">
+  <component name="RunManager" selected="Application.T2">
+    <configuration name="JaggedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.JaggedArrays" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lesson2_42.Task2" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
@@ -69,32 +83,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson2_42.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson2_52.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_52.Task1" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,6 +157,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckCycleFor.T1" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CheckCycleFor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CheckCycleFor.T2" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CheckCycleFor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_38.Task1" />
       <module name="inOfficeProject" />
@@ -204,19 +218,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_38.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task3_3_3_8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exp.Task3_3_3_8" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.T2" />
+        <item itemvalue="Application.T1" />
+        <item itemvalue="Application.JaggedArrays" />
         <item itemvalue="Application.Lesson2_52.Task5" />
         <item itemvalue="Application.Lesson2_52.Task3" />
-        <item itemvalue="Application.Lesson2_52.Task1" />
-        <item itemvalue="Application.Lesson2_42.Task3" />
-        <item itemvalue="Application.Task3_3_3_8" />
       </list>
     </recent_temporary>
   </component>
@@ -312,13 +313,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00001" summary="HomeMade">
-      <created>1671081969460</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1671081969460</updated>
     </task>
     <task id="LOCAL-00002" summary="HomeMade1">
       <created>1671091796083</created>
@@ -656,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678107695032</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="update 2_52">
+      <created>1678110011444</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1678110011445</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -698,17 +699,6 @@
     <MESSAGE value="update" />
     <MESSAGE value="update 2_52" />
     <option name="LAST_COMMIT_MESSAGE" value="update 2_52" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/arrays/Arrays_t_6.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

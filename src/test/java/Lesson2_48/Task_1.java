@@ -18,7 +18,7 @@ public class Task_1 {
     static String str = "Циклом называется многократное выполнение одних и тех же действий.";
 
     public static void main(String[] args) {
-        String s1 = str.substring(0, str.indexOf(args[0]));
+        String s1 = str.substring(0, str.indexOf(args[2]));
         int count = s1.replaceAll("\\s+|\\.", "").length();
         System.out.println(count);
     }

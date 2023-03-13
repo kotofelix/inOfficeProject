@@ -9,7 +9,7 @@ Account
     Для суммы используйте тип BigDecimal, для номеров - long
  */
 
-package com.megabankcorp.records;
+package Lesson2_58.megabankcorp.records;
 
 import java.math.BigDecimal;
 

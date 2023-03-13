@@ -1,6 +1,6 @@
-package com.megabankcorp.system;
+package Lesson2_58.megabankcorp.system;
 
-import com.megabankcorp.records.Account;
+import Lesson2_58.megabankcorp.records.Account;
 
 import java.math.BigDecimal;
 

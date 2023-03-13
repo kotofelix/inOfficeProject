@@ -6,16 +6,16 @@ import java.math.BigDecimal;
 import java.util.Arrays;
 
 public class Cargo {
-    private Fruit[] fruits;
-    private int[] counts;
+    private Fruit[] fruits; // массив типа Fruit для хранения фруктов
+    private int[] counts; // массив типа int для хранения количества каждого фрукта
 
-    public Cargo() {
+    public Cargo() {      // конструктор класса Cargo, создает пустой массив фруктов и пустой массив количества фруктов
         fruits = new Fruit[0];
         counts = new int[0];
     }
 
-    public double getWeight() {
-        double weight = 0;
+    public double getWeight() { // метод для получения общего веса груза, вычисляет общий вес груза,
+        double weight = 0;    // перемножая вес каждого фрукта на его количество и складывая результаты
         for (int i = 0; i < fruits.length; i++) {
             weight += fruits[i].getWeight() * counts[i];
         }

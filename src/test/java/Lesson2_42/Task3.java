@@ -9,7 +9,7 @@ public class Task3 {
 
         // печать рядов с чередованием нечетных и четных строк
         for (int r = 1; r <= rows; r++) {
-            if (r % 2 == 1) {
+                     if (r % 2 == 1) {
                 // печать нечетной строки слева направо
                 for (int i = (r - 1) * col + 1; i <= r * col; i++) {
                     if (i == n && remainder != 0) {
@@ -65,6 +65,6 @@ public class Task3 {
         }
     }
     public static void main(String[] args) {
-        printRows(27, 5);
+        printRows(14, 4);
     }
 }

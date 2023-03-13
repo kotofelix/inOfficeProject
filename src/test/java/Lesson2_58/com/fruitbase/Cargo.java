@@ -48,8 +48,8 @@ public class Cargo {
         for (int i = 0; i < fruits.length; i++) {
             sb.append(counts[i]).append(" ").append(fruits[i].getName()).append("\n");
         }
-        sb.append("Total weight: ").append(getWeight()).append("\n");
-        sb.append("Total price: ").append(getPrice());
+        sb.append("Общий вес фруктов: ").append(getWeight()).append("\n");
+        sb.append("Цена фруктов: ").append(getPrice());
         return sb.toString();
     }
 }

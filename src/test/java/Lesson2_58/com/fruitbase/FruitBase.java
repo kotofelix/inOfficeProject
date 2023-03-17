@@ -26,7 +26,7 @@ public class FruitBase {
 
     public FruitBase() { // Конструктор класса FruitBase
         this.fruitCatalogue = new FruitCatalogue(); // Создаем новый объект FruitCatalogue
-                                                    // и присваиваем его переменной fruitCatalogue
+        // и присваиваем его переменной fruitCatalogue
     }
 
     public Cargo takeOrder(String order) { // Метод takeOrder, который принимает строку с заказом и возвращает объект Cargo

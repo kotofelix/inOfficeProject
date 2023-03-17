@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exp/Task_42_3_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_42/Task3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/Cargo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitCatalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/fruits/Pineapple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/fruits/Pineapple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,20 +326,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00003" summary="HomeMade1+">
-      <created>1671092779346</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1671092779346</updated>
-    </task>
-    <task id="LOCAL-00004" summary="HomeMade1++">
-      <created>1671093742791</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1671093742791</updated>
     </task>
     <task id="LOCAL-00005" summary="HomeMade1+++">
       <created>1671101658055</created>
@@ -674,7 +656,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678186776785</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="++">
+      <created>1678711725966</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1678711725967</updated>
+    </task>
+    <task id="LOCAL-00053" summary="++">
+      <created>1678711962983</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1678711962983</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -690,7 +686,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
     <MESSAGE value="+Vet лечит" />
     <MESSAGE value="мелкие изменения" />
     <MESSAGE value="дз по датам" />
@@ -715,7 +710,8 @@
     <MESSAGE value="update 2.42.3" />
     <MESSAGE value="update" />
     <MESSAGE value="update 2_52" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2_52" />
+    <MESSAGE value="++" />
+    <option name="LAST_COMMIT_MESSAGE" value="++" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

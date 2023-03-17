@@ -22,7 +22,7 @@ public class Cargo {
         return weight;
     }
 
-    public BigDecimal getPrice() {
+    public BigDecimal getPrice() {  //возвращает общую стоимость всех фруктов в грузе
         BigDecimal price = BigDecimal.valueOf(0);
         for (int i = 0; i < fruits.length; i++) {
             price = price.add(fruits[i].getPrice().multiply(BigDecimal.valueOf(counts[i])));
@@ -30,6 +30,9 @@ public class Cargo {
         return price;
     }
 
+    //добавляет фрукт в массив fruits. Если такой фрукт уже есть в массиве,
+    //увеличивает количество на 1 в массиве counts. Если фрукта еще нет в массиве,
+    // увеличивает размер массива fruits и counts на 1 и добавляет новый фрукт и количество 1 в конец массива.
     void addFruit(Fruit fruit) {
         for (int i = 0; i < fruits.length; i++) {
             if (fruits[i].getName().equals(fruit.getName())) {
@@ -43,6 +46,7 @@ public class Cargo {
         counts[counts.length - 1] = 1;
     }
 
+    //возвращает строку, содержащую информацию о количестве и типе фруктов, общем весе и цене всех фруктов в грузе
     public String toString() {
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < fruits.length; i++) {

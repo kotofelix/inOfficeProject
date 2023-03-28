@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/FruitBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/FruitCatalogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Freshness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Pineapple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/fruitbase/fruits/Fruit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,20 +328,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add DaysOfWeekEnum&#10;изменено на Enum">
-      <created>1672039029182</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1672039029182</updated>
-    </task>
-    <task id="LOCAL-00012" summary="add DaysOfWeekEnum&#10;изменено на Enum">
-      <created>1672039232747</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1672039232747</updated>
     </task>
     <task id="LOCAL-00013" summary="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте">
       <created>1672039493642</created>
@@ -682,7 +658,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680000596200</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="+2_65_2 и добавил Enum">
+      <created>1680005751759</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1680005751759</updated>
+    </task>
+    <task id="LOCAL-00061" summary="поправил конструкторы фруктов">
+      <created>1680005898237</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1680005898237</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -698,8 +688,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Date completed" />
-    <MESSAGE value="Date completed + refactoring" />
     <MESSAGE value="Date completed + refactoring++" />
     <MESSAGE value="refactoring package" />
     <MESSAGE value="+++" />
@@ -723,7 +711,9 @@
     <MESSAGE value="++Fruit" />
     <MESSAGE value="++FruitBase" />
     <MESSAGE value="+2_65_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="+2_65_1" />
+    <MESSAGE value="+2_65_2 и добавил Enum" />
+    <MESSAGE value="поправил конструкторы фруктов" />
+    <option name="LAST_COMMIT_MESSAGE" value="поправил конструкторы фруктов" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,31 +10,35 @@
 package Exp;
 
 public class Task3_3_3 {
-    public static void printRows(int n, int col) {
-        int rows = n / col;
-        int remainder = n % col;
-
-        for (int i = 1; i <= rows * col; i++) {
-            System.out.print(i + " ");
-            if (i % col == 0) {
-                System.out.println();
-            }
+    static void snakePrint(int n, int col) {
+        if (n < 0 || col < 0) {
+            System.out.println("Ошибка! Числа должны быть больше 0");
+            return;
         }
-
-        if (remainder != 0) {
-            // последний ряд заполняется не полностью
-            for (int i = rows * col + 1; i <= n; i++) {
-                System.out.print(i + " ");
+        int lenStrBeforeRev = 0;
+        String str = "";
+        boolean revers = false;
+        for (int i = 1; i <= n; i++) {
+            if ((i - 1) % (col) == 0 && i != 1) {
+                revers = !revers;
+                System.out.println(str);
+                lenStrBeforeRev = str.length();
+                str = "";
             }
-            for (int i = 0; i < col - remainder; i++) {
-                System.out.print("* ");
-            }
-            System.out.println();
+            str = (revers) ? i + " " + str : str + i + " ";
+        }
+        if (str.length() > 0) {
+            if (revers)
+                System.out.println(" ".repeat(lenStrBeforeRev - str.length()) + str);
+            else
+                System.out.println(str);
         }
     }
 
 
+
+
     public static void main(String[] args) {
-        printRows(27, 5);
+        snakePrint(26, 4);
     }
 }

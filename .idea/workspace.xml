@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/UniqueWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FruitBase">
+  <component name="RunManager" selected="Application.UniqueWords">
     <configuration name="FruitBase" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_58.com.fruitbase.FruitBase" />
       <module name="inOfficeProject" />
@@ -280,19 +280,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPackage1.tp3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.tp3.Test" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestPackage1.tp3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestPackage1.tp4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestPackage1.tp4.Test" />
       <module name="inOfficeProject" />
@@ -306,13 +293,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_65.UniqueWords" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="sfsdf sdfsdfsd dfsdf sdf sfsdf sdfsdfsd dfsdf sdf" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_65.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueWords" />
         <item itemvalue="Application.Test12" />
         <item itemvalue="Application.Test11" />
         <item itemvalue="Application.TestPackage1.tp4.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestPackage1.tp3.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -324,20 +325,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00008" summary="добавлен метод принт,&#10;добавлена переменная radius">
-      <created>1671700983265</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1671700983265</updated>
-    </task>
-    <task id="LOCAL-00009" summary="добавлен метод принт,&#10;добавлена переменная radius">
-      <created>1671800621002</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1671800621002</updated>
     </task>
     <task id="LOCAL-00010" summary="add DaysOfWeekEnum">
       <created>1672038030988</created>
@@ -668,7 +655,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679996144145</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="++FruitBase">
+      <created>1679996998842</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1679996998842</updated>
+    </task>
+    <task id="LOCAL-00058" summary="++FruitBase">
+      <created>1679997178319</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1679997178319</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -684,7 +685,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="дз по датам" />
     <MESSAGE value="Date 1 задание + 3 и 4 готово" />
     <MESSAGE value="Date completed" />
     <MESSAGE value="Date completed + refactoring" />
@@ -709,7 +709,8 @@
     <MESSAGE value="++comments" />
     <MESSAGE value="++" />
     <MESSAGE value="++Fruit" />
-    <option name="LAST_COMMIT_MESSAGE" value="++Fruit" />
+    <MESSAGE value="++FruitBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="++FruitBase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

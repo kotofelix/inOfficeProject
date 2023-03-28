@@ -36,4 +36,3 @@ class FruitCatalogue {
         return null;
     }
 }
-

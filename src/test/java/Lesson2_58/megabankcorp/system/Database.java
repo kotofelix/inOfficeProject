@@ -10,7 +10,7 @@ public abstract class Database {
 
     public abstract void withdraw(Account account, BigDecimal amount);
 
-    public abstract BigDecimal getAmount(Account account);
+    protected abstract BigDecimal getAmount(Account account);
 
     void transfer(Account from, Account to, BigDecimal amount) {
         BigDecimal fromAmount = getAmount(from);

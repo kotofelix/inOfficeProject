@@ -4,10 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="++">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/Test12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/tp2/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/tp3/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/tp4/Dynostatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/Cargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitCatalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/fruits/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/fruits/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/megabankcorp/records/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/megabankcorp/records/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/megabankcorp/system/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/megabankcorp/system/Database.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,24 +69,11 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Task_42_3_1">
-    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="childs.Child" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="childs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test12">
     <configuration name="FruitBase" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_58.com.fruitbase.FruitBase" />
       <module name="inOfficeProject" />
-      <option name="PROGRAM_PARAMETERS" value="fsd sdfsdf sdfsfsd" />
+      <option name="PROGRAM_PARAMETERS" value="fsd sdfsdf sdfsfsd orange orange apple" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_58.com.fruitbase.*" />
@@ -93,19 +88,6 @@
       <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task2" />
       <module name="inOfficeProject" />
       <option name="PROGRAM_PARAMETERS" value="2 2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Exp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson2_42.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3" />
-      <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exp.*" />
@@ -150,32 +132,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckCycleFor.T1" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CheckCycleFor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="T2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckCycleFor.T2" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CheckCycleFor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,12 +251,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_42_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exp.Task_42_3_1" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.tp2.Test" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.*" />
+          <option name="PATTERN" value="TestPackage1.tp2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test11" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.Test12" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPackage1.tp3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.tp3.Test" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage1.tp3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPackage1.tp4.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestPackage1.tp4.Test" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestPackage1.tp4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -310,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Task_42_3_1" />
-        <item itemvalue="Application.Lesson2_42.Task3" />
-        <item itemvalue="Application.Child" />
-        <item itemvalue="Application.T2" />
-        <item itemvalue="Application.T1" />
+        <item itemvalue="Application.Test12" />
+        <item itemvalue="Application.Test11" />
+        <item itemvalue="Application.TestPackage1.tp4.Test" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestPackage1.tp3.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -326,13 +334,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00005" summary="HomeMade1+++">
-      <created>1671101658055</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1671101658055</updated>
     </task>
     <task id="LOCAL-00006" summary="HomeMade1++++">
       <created>1671101693491</created>
@@ -670,7 +671,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678711962983</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="++comments">
+      <created>1679031798059</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1679031798059</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -686,7 +694,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="+Vet лечит" />
     <MESSAGE value="мелкие изменения" />
     <MESSAGE value="дз по датам" />
     <MESSAGE value="Date 1 задание + 3 и 4 готово" />
@@ -711,7 +718,29 @@
     <MESSAGE value="update" />
     <MESSAGE value="update 2_52" />
     <MESSAGE value="++" />
-    <option name="LAST_COMMIT_MESSAGE" value="++" />
+    <MESSAGE value="++comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="++comments" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/tp3/Parent.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/tp4/Dynostatic.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/Test11.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

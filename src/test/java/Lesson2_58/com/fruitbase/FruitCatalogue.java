@@ -18,8 +18,11 @@ class FruitCatalogue {
     // Конструктор FruitCatalogue создает новый объект FruitCatalogue и
     // инициализирует массив fruits со следующими фруктами: Apple, Orange, Banana и Pineapple.
     public FruitCatalogue() {
-        this.fruits = new Fruit[]
-                {new Apple(), new Orange(), new Banana(), new Pineapple()};
+        this.fruits = new Fruit[]{
+                new Apple(),
+                new Orange(),
+                new Banana(),
+                new Pineapple()};
     }
 
     // Метод findFruit(String name) принимает в качестве аргумента строку name, которую нужно найти в массиве fruits.

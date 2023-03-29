@@ -14,7 +14,7 @@ a aa ab abc
 Ввод:
 Вывод:
  */
-package Lesson2_65;
+package Lesson2_65.task2;
 
 import java.util.Arrays;
 import java.util.HashSet;

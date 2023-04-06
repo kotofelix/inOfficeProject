@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="++++Experiments">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestPackage1/tp5/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/LongestWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/LongestWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task3_3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task3_3_3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task3_3_3_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task3_3_3_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task3_3_3_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task_2_42_3_2_Top_Massive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task_2_42_3_2_Top_Massive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task_2_48_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task_2_48_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task_2_48_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task_2_48_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task_2_48_6_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task_2_48_6_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/Task_42_3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/exp1/Task_42_3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Exp/fruits2ex/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Exp/fruits2ex/Cargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_58/com/fruitbase/FruitCatalogue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/UniqueWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestPackage1/Test10.java" beforeDir="false" />
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task1/UniqueWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -346,20 +327,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте">
-      <created>1672039493642</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1672039493642</updated>
-    </task>
-    <task id="LOCAL-00014" summary="отредактировал оба задания согласно рекомендуемых правок">
-      <created>1672310925245</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1672310925245</updated>
     </task>
     <task id="LOCAL-00015" summary="+Add Chelovek2">
       <created>1673244590368</created>
@@ -690,7 +657,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680005898237</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="++++Experiments">
+      <created>1680780914653</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1680780914654</updated>
+    </task>
+    <task id="LOCAL-00063" summary="+2_65 - 1 задание">
+      <created>1680781060718</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1680781060718</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -706,8 +687,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Date completed + refactoring++" />
-    <MESSAGE value="refactoring package" />
     <MESSAGE value="+++" />
     <MESSAGE value="+HW Cat" />
     <MESSAGE value="+HW Cat + HW Summa" />
@@ -731,7 +710,9 @@
     <MESSAGE value="+2_65_1" />
     <MESSAGE value="+2_65_2 и добавил Enum" />
     <MESSAGE value="поправил конструкторы фруктов" />
-    <option name="LAST_COMMIT_MESSAGE" value="поправил конструкторы фруктов" />
+    <MESSAGE value="++++Experiments" />
+    <MESSAGE value="+2_65 - 1 задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="+2_65 - 1 задание" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

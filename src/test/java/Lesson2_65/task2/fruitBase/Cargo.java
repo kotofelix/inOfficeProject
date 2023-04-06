@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Cargo {
-    public List<Fruit> fruits;
+    private List<Fruit> fruits;
     private double totalWeight;
 
     public Cargo(List<Fruit> fruits) {

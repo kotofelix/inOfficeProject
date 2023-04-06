@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task1/UniqueWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/FruitCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/FruitCatalogue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,20 +329,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00015" summary="+Add Chelovek2">
-      <created>1673244590368</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1673244590368</updated>
-    </task>
-    <task id="LOCAL-00016" summary="поменял названия пакетов">
-      <created>1673245992038</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1673245992038</updated>
     </task>
     <task id="LOCAL-00017" summary="добавил заготовку по ДЗ с Animal">
       <created>1673260762283</created>
@@ -671,7 +659,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680781060718</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="+2_65 - 1 задание">
+      <created>1680781275782</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1680781275782</updated>
+    </task>
+    <task id="LOCAL-00065" summary="+2_65 - 2 задание">
+      <created>1680781429782</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1680781429782</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -687,7 +689,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="+++" />
     <MESSAGE value="+HW Cat" />
     <MESSAGE value="+HW Cat + HW Summa" />
     <MESSAGE value="+HW доработки" />
@@ -712,7 +713,8 @@
     <MESSAGE value="поправил конструкторы фруктов" />
     <MESSAGE value="++++Experiments" />
     <MESSAGE value="+2_65 - 1 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="+2_65 - 1 задание" />
+    <MESSAGE value="+2_65 - 2 задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="+2_65 - 2 задание" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

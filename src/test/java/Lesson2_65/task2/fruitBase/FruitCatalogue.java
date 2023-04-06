@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FruitCatalogue {
-    List<Fruit> fruits;
+    protected List<Fruit> fruits;
 
     public FruitCatalogue() {
         this.fruits = new ArrayList<>();

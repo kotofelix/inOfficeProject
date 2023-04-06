@@ -63,7 +63,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson2_42.Task3">
+  <component name="RunManager" selected="Application.Lesson2_65.task2.fruitBase.Simulation">
     <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestPackage1.tp5.childs.Child" />
       <module name="inOfficeProject" />
@@ -311,9 +311,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson2_65.task2.fruitBase.Simulation" />
         <item itemvalue="Application.Lesson2_42.Task3" />
         <item itemvalue="Application.Lesson2_42.Task1" />
-        <item itemvalue="Application.Lesson2_65.task2.fruitBase.Simulation" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Child" />
       </list>

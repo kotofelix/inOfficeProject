@@ -12,7 +12,7 @@
  * Ввод: 123 abcd b33f 0s 12
  * Вывод: abcd b33f
  */
-package Exp;
+package Exp.exp1;
 
 import java.util.ArrayList;
 import java.util.List;

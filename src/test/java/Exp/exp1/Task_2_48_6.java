@@ -1,4 +1,4 @@
-package Exp;
+package Exp.exp1;
 
 public class Task_2_48_6 {
     public static int toInt(String str) throws NumberFormatException {

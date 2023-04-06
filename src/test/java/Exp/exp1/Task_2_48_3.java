@@ -9,7 +9,7 @@
  * Вывод: 10a01vt1010c
  * Проверку на наличие и корректность аргумента делать не надо.
  */
-package Exp;
+package Exp.exp1;
 
 public class Task_2_48_3 {
     public static String replaceZerosOnes(String input) {

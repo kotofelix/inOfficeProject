@@ -1,4 +1,4 @@
-package Exp;
+package Exp.exp1;
 
 public class Task3_3_3_7 {
     public static void printRows(int n, int col) {

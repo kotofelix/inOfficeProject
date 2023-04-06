@@ -14,7 +14,7 @@
  * Проверку на наличие и корректность аргумента делать не надо.
  */
 
-package Exp;
+package Exp.exp1;
 
 public class Task_2_48_4 {
 

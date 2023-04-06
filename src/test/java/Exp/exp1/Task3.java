@@ -21,7 +21,7 @@ col - количество цифр в одной строке
 
 не заворачивает
  */
-package Exp;
+package Exp.exp1;
 
 public class Task3 {
     public static void snakePrint(int n, int col) {

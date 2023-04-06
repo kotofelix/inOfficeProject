@@ -2,7 +2,7 @@ package Exp.fruits2ex;
 
 import java.util.List;
 
-class Cargo {
+public class Cargo {
     private List<Fruit> fruits;
 
     public Cargo(List<Fruit> fruits) {

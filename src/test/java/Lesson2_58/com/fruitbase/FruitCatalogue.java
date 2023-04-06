@@ -20,7 +20,8 @@ class FruitCatalogue {
                 new Apple(),
                 new Orange(),
                 new Banana(),
-                new Pineapple()};
+                new Pineapple()
+        };
     }
 
     Fruit findFruit(String name) {

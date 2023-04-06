@@ -1,4 +1,4 @@
-package Exp;
+package Exp.exp1;
 
 public class Task3_3_3_8 {
     public static void snakePrint(int n, int col) {

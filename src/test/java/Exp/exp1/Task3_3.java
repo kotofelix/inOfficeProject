@@ -7,7 +7,7 @@
 27 26
 Заворачивают но не в хвосте + массивы
  */
-package Exp;
+package Exp.exp1;
 
 import java.util.Arrays;
 

@@ -7,7 +7,7 @@
 26 27 * * *
 
  */
-package Exp;
+package Exp.exp1;
 
 public class Task3_3_3 {
     static void snakePrint(int n, int col) {

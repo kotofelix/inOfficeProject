@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+++">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Cargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/FruitCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/FruitCatalogue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,7 +54,6 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/inOfficeProject/src/test/java/Lesson2_65&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -57,21 +61,32 @@
   }
 }</component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Java\inOfficeProject\src\test\java\Lesson2_65" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Lesson2_42" />
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Lesson2_65.task2.fruitBase.Simulation">
-    <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.tp5.childs.Child" />
+    <configuration name="Alchemy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="himik.Alchemy" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="Air Air Fire Earth" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="himik.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exp.fruits2ex.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exp.fruits2ex.Simulation" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestPackage1.tp5.childs.*" />
+          <option name="PATTERN" value="Exp.fruits2ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,22 +97,10 @@
     <configuration name="FruitBase" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_58.com.fruitbase.FruitBase" />
       <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="Apple orange orange pineapple Apple orange orange pineapple" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_58.com.fruitbase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson2_42.Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task1" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,20 +114,7 @@
       <option name="PROGRAM_PARAMETERS" value="2 2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.exp1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lesson2_42.Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson2_42.Task3" />
-      <module name="inOfficeProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson2_42.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,7 +128,7 @@
       <option name="PROGRAM_PARAMETERS" value="sadfdsfsd asdsa das asd sadfdsfsd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.exp1.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,6 +139,7 @@
     <configuration name="Lesson2_65.task2.fruitBase.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_65.task2.fruitBase.Simulation" />
       <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="apple orange orange pineapple 23423" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_65.task2.fruitBase.*" />
@@ -165,7 +156,7 @@
       <option name="PROGRAM_PARAMETERS" value="odinakovodlinnoe korotkoe odinakovodlinnoi korotko" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.exp1.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,11 +165,24 @@
       </method>
     </configuration>
     <configuration name="LongestWords" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exp.exp1.LongestWords" />
+      <option name="MAIN_CLASS_NAME" value="Exp.LongestWords" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.exp1.*" />
+          <option name="PATTERN" value="Exp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_65.fruits.Simulation" />
+      <module name="inOfficeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_65.fruits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,7 +266,7 @@
       <option name="PROGRAM_PARAMETERS" value="Ц а ." />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.exp1.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,7 +280,7 @@
       <option name="PROGRAM_PARAMETERS" value="&quot;C:\bin\&quot;" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Exp.exp1.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,12 +302,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestPackage1.tp5.Test" />
+    <configuration name="Task_42_3_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exp.Task_42_3_1" />
       <module name="inOfficeProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TestPackage1.tp5.parents.*" />
+          <option name="PATTERN" value="Exp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,11 +317,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_42_3_1" />
+        <item itemvalue="Application.Simulation" />
         <item itemvalue="Application.Lesson2_65.task2.fruitBase.Simulation" />
-        <item itemvalue="Application.Lesson2_42.Task3" />
-        <item itemvalue="Application.Lesson2_42.Task1" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Child" />
+        <item itemvalue="Application.Exp.fruits2ex.Simulation" />
+        <item itemvalue="Application.Alchemy" />
       </list>
     </recent_temporary>
   </component>
@@ -329,6 +333,104 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HomeMade1+">
+      <created>1671092779346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671092779346</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HomeMade1++">
+      <created>1671093742791</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671093742791</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HomeMade1+++">
+      <created>1671101658055</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671101658055</updated>
+    </task>
+    <task id="LOCAL-00006" summary="HomeMade1++++">
+      <created>1671101693491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671101693491</updated>
+    </task>
+    <task id="LOCAL-00007" summary="добавлен метод принт,&#10;добавлена переменная radius">
+      <created>1671441120119</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671441120119</updated>
+    </task>
+    <task id="LOCAL-00008" summary="добавлен метод принт,&#10;добавлена переменная radius">
+      <created>1671700983265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671700983265</updated>
+    </task>
+    <task id="LOCAL-00009" summary="добавлен метод принт,&#10;добавлена переменная radius">
+      <created>1671800621002</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671800621002</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add DaysOfWeekEnum">
+      <created>1672038030988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672038030988</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add DaysOfWeekEnum&#10;изменено на Enum">
+      <created>1672039029182</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672039029182</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add DaysOfWeekEnum&#10;изменено на Enum">
+      <created>1672039232747</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672039232747</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add DaysOfWeekEnum&#10;изменено на Enum&#10;удалил лишнюю папку в проекте">
+      <created>1672039493642</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672039493642</updated>
+    </task>
+    <task id="LOCAL-00014" summary="отредактировал оба задания согласно рекомендуемых правок">
+      <created>1672310925245</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672310925245</updated>
+    </task>
+    <task id="LOCAL-00015" summary="+Add Chelovek2">
+      <created>1673244590368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1673244590368</updated>
+    </task>
+    <task id="LOCAL-00016" summary="поменял названия пакетов">
+      <created>1673245992038</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673245992038</updated>
     </task>
     <task id="LOCAL-00017" summary="добавил заготовку по ДЗ с Animal">
       <created>1673260762283</created>
@@ -575,105 +677,7 @@
       <option name="project" value="LOCAL" />
       <updated>1678186776785</updated>
     </task>
-    <task id="LOCAL-00052" summary="++">
-      <created>1678711725966</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1678711725967</updated>
-    </task>
-    <task id="LOCAL-00053" summary="++">
-      <created>1678711962983</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1678711962983</updated>
-    </task>
-    <task id="LOCAL-00054" summary="++comments">
-      <created>1679031798059</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1679031798059</updated>
-    </task>
-    <task id="LOCAL-00055" summary="++">
-      <created>1679995888811</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1679995888812</updated>
-    </task>
-    <task id="LOCAL-00056" summary="++Fruit">
-      <created>1679996144145</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1679996144145</updated>
-    </task>
-    <task id="LOCAL-00057" summary="++FruitBase">
-      <created>1679996998842</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1679996998842</updated>
-    </task>
-    <task id="LOCAL-00058" summary="++FruitBase">
-      <created>1679997178319</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1679997178319</updated>
-    </task>
-    <task id="LOCAL-00059" summary="+2_65_1">
-      <created>1680000596199</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1680000596200</updated>
-    </task>
-    <task id="LOCAL-00060" summary="+2_65_2 и добавил Enum">
-      <created>1680005751759</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1680005751759</updated>
-    </task>
-    <task id="LOCAL-00061" summary="поправил конструкторы фруктов">
-      <created>1680005898237</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1680005898237</updated>
-    </task>
-    <task id="LOCAL-00062" summary="++++Experiments">
-      <created>1680780914653</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1680780914654</updated>
-    </task>
-    <task id="LOCAL-00063" summary="+2_65 - 1 задание">
-      <created>1680781060718</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1680781060718</updated>
-    </task>
-    <task id="LOCAL-00064" summary="+2_65 - 1 задание">
-      <created>1680781275782</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1680781275782</updated>
-    </task>
-    <task id="LOCAL-00065" summary="+2_65 - 2 задание">
-      <created>1680781429782</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1680781429782</updated>
-    </task>
-    <option name="localTasksCounter" value="66" />
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -689,6 +693,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="добавил заготовку по ДЗ с Animal+" />
+    <MESSAGE value="+Vet лечит" />
+    <MESSAGE value="мелкие изменения" />
+    <MESSAGE value="дз по датам" />
+    <MESSAGE value="Date 1 задание + 3 и 4 готово" />
+    <MESSAGE value="Date completed" />
+    <MESSAGE value="Date completed + refactoring" />
+    <MESSAGE value="Date completed + refactoring++" />
+    <MESSAGE value="refactoring package" />
+    <MESSAGE value="+++" />
     <MESSAGE value="+HW Cat" />
     <MESSAGE value="+HW Cat + HW Summa" />
     <MESSAGE value="+HW доработки" />
@@ -704,48 +718,20 @@
     <MESSAGE value="update 2.42.3" />
     <MESSAGE value="update" />
     <MESSAGE value="update 2_52" />
-    <MESSAGE value="++comments" />
-    <MESSAGE value="++" />
-    <MESSAGE value="++Fruit" />
-    <MESSAGE value="++FruitBase" />
-    <MESSAGE value="+2_65_1" />
-    <MESSAGE value="+2_65_2 и добавил Enum" />
-    <MESSAGE value="поправил конструкторы фруктов" />
-    <MESSAGE value="++++Experiments" />
-    <MESSAGE value="+2_65 - 1 задание" />
-    <MESSAGE value="+2_65 - 2 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="+2_65 - 2 задание" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/tp3/Parent.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/tp4/Dynostatic.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/TestPackage1/Test11.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <option name="LAST_COMMIT_MESSAGE" value="update 2_52" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inOfficeProject$Task_2_2.ic" NAME="Task_2_2 Coverage Results" MODIFIED="1678017055058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lesson2_48.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/inOfficeProject$LongestWords2.ic" NAME="LongestWords2 Coverage Results" MODIFIED="1678094653933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lesson2_52.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Lesson2_38.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestPackage1.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/inOfficeProject$LongestWords2.ic" NAME="LongestWords2 Coverage Results" MODIFIED="1678094653933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Lesson2_52.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Check4.ic" NAME="Check4 Coverage Results" MODIFIED="1675165982070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>lesson.cycles.*</FILTER>

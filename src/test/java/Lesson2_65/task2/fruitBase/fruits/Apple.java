@@ -3,6 +3,7 @@ package Lesson2_65.task2.fruitBase.fruits;
 import java.math.BigDecimal;
 
 public class Apple extends Fruit {
+
     public Apple(double weight, double price) {
         super("Apple", weight, BigDecimal.valueOf(price));
         this.freshness = Freshness.FRESH;
@@ -12,9 +13,9 @@ public class Apple extends Fruit {
         super("Apple", weight, BigDecimal.valueOf(price), freshness);
     }
 
-    public Apple() {
-        super("Apple");
-    }
+//   public Apple() {
+//       super("Apple");
+//   }
 
     @Override
     public double getTotalWeight() {

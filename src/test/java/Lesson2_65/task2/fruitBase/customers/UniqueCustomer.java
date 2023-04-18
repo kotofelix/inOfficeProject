@@ -21,3 +21,4 @@ public class UniqueCustomer extends Customer {
         return purchases;
     }
 }
+

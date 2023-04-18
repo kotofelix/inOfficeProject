@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
+    <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="+2_65 - 2 задание">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/FruitBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Cargo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/FruitCatalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/FruitCatalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Simulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/Simulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/customers/FreshCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/customers/FreshCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/customers/UniqueCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/customers/UniqueCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/fruits/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson2_65/task2/fruitBase/fruits/Apple.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/inOfficeProject/src/test/java/Lesson2_65&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/inOfficeProject/src/test/java/Lesson2_65/modifiedFB&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -58,6 +63,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\inOfficeProject\src\test\java\Lesson2_65\modifiedFB" />
+      <recent name="D:\Java\inOfficeProject\src\test\java\Lesson2_65\task2o" />
       <recent name="D:\Java\inOfficeProject\src\test\java\Lesson2_65" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,7 +72,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson2_65.task2.fruitBase.Simulation">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestPackage1.tp5.childs.Child" />
       <module name="inOfficeProject" />
@@ -82,6 +89,7 @@
     <configuration name="FruitBase" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_58.com.fruitbase.FruitBase" />
       <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="Banana apple orange pineapple Banana apple orange pineapple" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_58.com.fruitbase.*" />
@@ -146,6 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson2_65.com.fruitbaseEX.FruitBase" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_65.com.fruitbaseEX.FruitBase" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="Orange orange Apple apple Pineapple banana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_65.com.fruitbaseEX.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Lesson2_65.task2.fruitBase.Simulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson2_65.task2.fruitBase.Simulation" />
       <module name="inOfficeProject" />
@@ -179,6 +201,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Exp.exp1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Simulation" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_65.com.fruitbaseEX.Simulation" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="Apple orange banana Apple orange banana" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson2_65.com.fruitbaseEX.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -311,6 +347,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2_65.task2.fruitBase.Simulation" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="orange mango apple banana orange mango apple banana" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Lesson2_65.com.fruitbaseEX.FruitBase" />
+      <item itemvalue="Application.Simulation" />
+      <item itemvalue="Application.FruitBase" />
+      <item itemvalue="Application.Lesson2_42.Task2" />
+      <item itemvalue="Application.Lesson2_52.Task2" />
+      <item itemvalue="Application.LongestWord" />
+      <item itemvalue="Application.LongestWords" />
+      <item itemvalue="Application.Task1" />
+      <item itemvalue="Application.Task2" />
+      <item itemvalue="Application.Task3" />
+      <item itemvalue="Application.Task4" />
+      <item itemvalue="Application.Task5" />
+      <item itemvalue="Application.Task_1" />
+      <item itemvalue="Application.Task_2" />
+      <item itemvalue="Application.Task_3" />
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.Child" />
+      <item itemvalue="Application.Lesson2_42.Task1" />
+      <item itemvalue="Application.Lesson2_42.Task3" />
+      <item itemvalue="Application.Lesson2_65.task2.fruitBase.Simulation" />
+      <item itemvalue="Application.Test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Lesson2_65.task2.fruitBase.Simulation" />
@@ -329,13 +396,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00017" summary="добавил заготовку по ДЗ с Animal">
-      <created>1673260762283</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1673260762283</updated>
     </task>
     <task id="LOCAL-00018" summary="добавил заготовку по ДЗ с Animal+">
       <created>1673271332179</created>
@@ -673,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680781429782</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="+2_65 - 2 задание">
+      <created>1680784277489</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1680784277490</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

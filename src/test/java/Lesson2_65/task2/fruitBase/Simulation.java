@@ -20,18 +20,16 @@ public class Simulation {
     }
 
     public static void main(String[] args) {
-        FruitCatalogue f1 = new FruitCatalogue();
-        f1.fruits.add(new Apple(0.4, 0.2));
-        f1.fruits.add(new Apple(0.4, 0.2));
-        f1.fruits.add(new Banana(0.3, 0.8, Freshness.OVERRIPED));
-        f1.fruits.add(new Banana(0.3, 0.8, Freshness.OVERRIPED));
-        f1.fruits.add(new Pineapple(1.2, 1.8, Freshness.SPOILED));
-        f1.fruits.add(new Mango(1, 1.2, Freshness.FRESH));
-        f1.fruits.add(new Orange(0.5, 0.2, Freshness.FRESH));
-        f1.fruits.add(new Orange(0.4, 0.25, Freshness.OVERRIPED));
-        f1.fruits.add(new Pineapple(1.2, 1.8));
+        FruitBase fruitBase = new FruitBase();
+        FruitCatalogue fruitCatalogue = new FruitCatalogue();
+        for (String fruitName : args) {
+            Fruit fruit = fruitBase.createFruit(fruitName);
+            if (fruit != null) {
+                fruitCatalogue.addFruit(fruit);
+            }
+        }
 
-        Cargo cargo = new Cargo(f1.fruits);
+        Cargo cargo = new Cargo(fruitCatalogue.fruits);
 
         List<Customer> customers = new ArrayList<>();
         customers.add(new FreshCustomer("Fresh"));

@@ -21,3 +21,4 @@ public class FreshCustomer extends Customer {
         return purchases;
     }
 }
+

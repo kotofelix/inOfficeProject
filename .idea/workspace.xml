@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Air.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Alchemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Dust.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Earth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Energy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Fire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Lava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Mud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/NatureElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Pressure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Rain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Sea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Steam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/task1/Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/FruitBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/FruitCatalogue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/Simulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/customers/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/customers/FreshCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/customers/UniqueCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Freshness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Mango.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Orange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Pineapple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Java/inOfficeProject/src/test/java/Lesson3_9/task1",
+    "last_opened_file_path": "D:/Java/inOfficeProject/src/test/java/Lesson3_9",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -70,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\inOfficeProject\src\test\java\Lesson3_9" />
       <recent name="D:\Java\inOfficeProject\src\test\java\Lesson3_9\task1" />
       <recent name="D:\Java\inOfficeProject\src\test\java\Lesson2_65\modifiedFB" />
       <recent name="D:\Java\inOfficeProject\src\test\java\Lesson2_65\task2o" />
@@ -80,7 +81,7 @@
       <recent name="ModuleTwoLesson13.DaysOfWeekEnum" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lesson3_9.task1.Alchemy">
+  <component name="RunManager" selected="Application.Lesson3_9.fruitBase.Simulation">
     <configuration name="Alchemy" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson3_9.task1.himik.Alchemy" />
       <module name="inOfficeProject" />
@@ -183,6 +184,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lesson2_65.task2.fruitBase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson3_9.fruitBase.Simulation" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson3_9.fruitBase.Simulation" />
+      <module name="inOfficeProject" />
+      <option name="PROGRAM_PARAMETERS" value="-i orange apple banana mango orange apple banana mango" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson3_9.fruitBase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,6 +395,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Alchemy" />
+      <item itemvalue="Application.Lesson3_9.fruitBase.Simulation" />
       <item itemvalue="Application.Lesson2_65.com.fruitbaseEX.FruitBase" />
       <item itemvalue="Application.Simulation" />
       <item itemvalue="Application.FruitBase" />
@@ -420,13 +436,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
-    </task>
-    <task id="LOCAL-00020" summary="+Vet лечит">
-      <created>1673444390365</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1673444390365</updated>
     </task>
     <task id="LOCAL-00021" summary="мелкие изменения">
       <created>1673849902515</created>
@@ -764,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681813533148</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="+3_9- 1 задание">
+      <created>1681820390211</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1681820390211</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -780,7 +796,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="+HW Cat + HW Summa" />
     <MESSAGE value="+HW доработки" />
     <MESSAGE value="+HW доработки++" />
     <MESSAGE value="+example1" />
@@ -805,7 +820,8 @@
     <MESSAGE value="+2_65 - 1 задание" />
     <MESSAGE value="+2_65 - 2 задание" />
     <MESSAGE value="+2_65 - 2 задание исправления" />
-    <option name="LAST_COMMIT_MESSAGE" value="+2_65 - 2 задание исправления" />
+    <MESSAGE value="+3_9- 1 задание" />
+    <option name="LAST_COMMIT_MESSAGE" value="+3_9- 1 задание" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

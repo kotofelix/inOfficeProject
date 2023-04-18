@@ -1,7 +1,7 @@
 package Lesson3_9.task1;
 
 public abstract class NatureElement {
-    String newElement;
+    protected String newElement;
 
     public NatureElement(String newElement) {
         this.newElement = newElement;

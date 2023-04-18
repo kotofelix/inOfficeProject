@@ -24,7 +24,6 @@ public class FruitBase {
             fruits.add(fruit);
         }
     }
-
     public Fruit createFruit(String fruitName) {
         switch (fruitName.toLowerCase()) {
             case "apple":
@@ -42,7 +41,6 @@ public class FruitBase {
                 return null;
         }
     }
-
     public List<Fruit> getAllFruits() {
         return fruits;
     }

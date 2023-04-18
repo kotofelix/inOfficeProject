@@ -13,10 +13,6 @@ public class Apple extends Fruit {
         super("Apple", weight, BigDecimal.valueOf(price), freshness);
     }
 
-//   public Apple() {
-//       super("Apple");
-//   }
-
     @Override
     public double getTotalWeight() {
         return getWeight();

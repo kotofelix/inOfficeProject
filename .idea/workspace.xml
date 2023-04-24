@@ -5,20 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bcd402c-6f8c-4e81-afde-5ced53bae77b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/Cargo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/FruitBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/FruitCatalogue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/Simulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/customers/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/customers/FreshCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/customers/UniqueCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Banana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Freshness.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Mango.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Orange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Lesson3_9/fruitBase/fruits/Pineapple.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master-Animal" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,18 +42,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Java/inOfficeProject/src/test/java/Lesson3_9",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/inOfficeProject/src/test/java/Lesson3_9&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Java\inOfficeProject\src\test\java\Lesson3_9" />
@@ -420,11 +406,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lesson3_9.task1.Alchemy" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Lesson2_65.task2.fruitBase.Simulation" />
         <item itemvalue="Application.Lesson2_42.Task3" />
         <item itemvalue="Application.Lesson2_42.Task1" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Lesson3_9.task1.Alchemy" />
       </list>
     </recent_temporary>
   </component>
@@ -847,6 +833,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/inOfficeProject$Task5.ic" NAME="Task5 Coverage Results" MODIFIED="1675328631865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Lesson2_38.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/inOfficeProject$Lesson3_9_fruitBase_Simulation.ic" NAME="Lesson3_9.fruitBase.Simulation Coverage Results" MODIFIED="1681912165656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Lesson3_9.fruitBase.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/inOfficeProject$Test4.ic" NAME="Test4 Coverage Results" MODIFIED="1674125014566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>TestPackage1.*</FILTER>

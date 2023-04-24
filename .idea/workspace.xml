@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="duplicateForComment" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -421,13 +421,6 @@
       <option name="presentableId" value="Default" />
       <updated>1670917097802</updated>
     </task>
-    <task id="LOCAL-00025" summary="Date completed">
-      <created>1673950401130</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1673950401130</updated>
-    </task>
     <task id="LOCAL-00026" summary="Date completed + refactoring">
       <created>1673950629838</created>
       <option name="number" value="00026" />
@@ -764,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682313615942</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="gitignore">
+      <created>1682315196081</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1682315196081</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
